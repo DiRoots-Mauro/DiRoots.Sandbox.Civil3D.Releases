@@ -1,0 +1,1382 @@
+{"0": {
+    "doc": "Annotation Settings",
+    "title": "Annotation Settings",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html"
+  },"1": {
+    "doc": "Annotation Settings",
+    "title": "Table of contents",
+    "content": ". | Annotation Settings . | Feature And Label Type | Label Style Selection | Additional Inputs For Specific Cases | Existing Annotation Replacement Behavior . | Re-execution And Relocated Labels | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#table-of-contents",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#table-of-contents"
+  },"2": {
+    "doc": "Annotation Settings",
+    "title": "Annotation Settings",
+    "content": "The Annotation Settings tab is the first configuration tab for each annotation row. It defines the annotation type, label style behavior, and additional inputs required by specific label cases. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html"
+  },"3": {
+    "doc": "Annotation Settings",
+    "title": "Feature And Label Type",
+    "content": "Auto Annotation provides Feature and Label Type options aligned with Civil 3D label workflows. This helps users stay in a familiar setup pattern while automating placement. Image: Example list of label features used as reference for Auto Annotation options. Note: the version on the image may not reflect the latest version. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#feature-and-label-type",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#feature-and-label-type"
+  },"4": {
+    "doc": "Annotation Settings",
+    "title": "Label Style Selection",
+    "content": "For each label category, you can define one or more style-related inputs: . | Label Style - Select the style to apply for the selected feature and label type. | Open style in Civil 3D - Use the adjacent button to open or edit style definitions directly in Civil 3D. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#label-style-selection",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#label-style-selection"
+  },"5": {
+    "doc": "Annotation Settings",
+    "title": "Additional Inputs For Specific Cases",
+    "content": "Some feature and label type combinations require extra parameters. Example: Surface feature with Slope label type can require inputs such as: . | Surface to annotate. | Anchor reference or other case-specific references. | . Auto Annotation exposes these inputs only when required by the selected label type. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#additional-inputs-for-specific-cases",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#additional-inputs-for-specific-cases"
+  },"6": {
+    "doc": "Annotation Settings",
+    "title": "Existing Annotation Replacement Behavior",
+    "content": "You can control whether previous annotations created by the same auto annotation row are removed during execution: . | Enabled - Existing related annotations are removed before creating new ones. | Disabled - New annotations are created without deleting previous ones. | . Re-execution And Relocated Labels . When re-executing: . | If labels were manually dragged/relocated, Auto Annotation uses the previous relocated label location. | Arrow vertex relocation is not reused because this behavior is not supported. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#existing-annotation-replacement-behavior",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Annotation-Settings.html#existing-annotation-replacement-behavior"
+  },"7": {
+    "doc": "Main Interface",
+    "title": "Main Interface",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html"
+  },"8": {
+    "doc": "Main Interface",
+    "title": "Table of contents",
+    "content": ". | Main Interface . | Main Workflow | Finding Created Annotations | Profile Modification | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html#table-of-contents",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html#table-of-contents"
+  },"9": {
+    "doc": "Main Interface",
+    "title": "Main Interface",
+    "content": "The Auto Annotation interface provides a row-based workflow where each row defines one annotation setup. The left table manages annotation rows, and the right panel shows the selected row configuration through two tabs: Annotation Settings and Scope. Image: Main interface with the annotation list and right-side configuration panel. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html"
+  },"10": {
+    "doc": "Main Interface",
+    "title": "Main Workflow",
+    "content": ". | Click Add Annotation to insert a new row. | Select the row to open its configuration on the right panel. | Configure Annotation Settings and Scope. | Repeat for additional rows if needed. | Check the rows you want to run. | Click Apply to create annotations. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html#main-workflow",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html#main-workflow"
+  },"11": {
+    "doc": "Main Interface",
+    "title": "Finding Created Annotations",
+    "content": "After creating annotations, you can work with the generated results from selected rows: . | Select - Select created annotations linked to selected rows. | Isolate / Unisolate - Isolate or restore display of created annotations to review outputs quickly. | . These actions help verify results and focus on specific annotation sets during iteration. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html#finding-created-annotations",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html#finding-created-annotations"
+  },"12": {
+    "doc": "Main Interface",
+    "title": "Profile Modification",
+    "content": "Save, share, and modify profiles to quickly switch between standardized Auto Annotation setups and achieve desired documentation outcomes. For details, see Profile. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Main-Interface.html#profile-modification",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Main-Interface.html#profile-modification"
+  },"13": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Profile.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Profile.html"
+  },"14": {
+    "doc": "Profile",
+    "title": "Table of contents",
+    "content": ". | Profile . | Overview | What’s Saved In The Profile | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Profile.html#table-of-contents",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Profile.html#table-of-contents"
+  },"15": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": "Auto Annotation includes a profile system to store and reuse complete annotation template configurations across projects. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Profile.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Profile.html"
+  },"16": {
+    "doc": "Profile",
+    "title": "Overview",
+    "content": "The profile system allows you to: . | Save and reuse standardized Auto Annotation setups. | Switch quickly between different profile templates. | Share profile templates across teams and projects. | Keep annotation logic consistent between project files. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Profile.html#overview",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Profile.html#overview"
+  },"17": {
+    "doc": "Profile",
+    "title": "What’s Saved In The Profile",
+    "content": "Each profile stores: . | The full set of Auto Annotation rows. | Per-row Annotation Settings (feature, label type, styles, and additional inputs). | Per-row Scope setup (apply-on file scope and object filter definitions). | Object filter rule logic and target object location definitions. | . This structure allows complete annotation templates to be recreated reliably in other projects. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Profile.html#whats-saved-in-the-profile",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Profile.html#whats-saved-in-the-profile"
+  },"18": {
+    "doc": "Scope",
+    "title": "Scope",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Scope.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Scope.html"
+  },"19": {
+    "doc": "Scope",
+    "title": "Table of contents",
+    "content": ". | Scope . | Apply On | Object Filter | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Scope.html#table-of-contents",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Scope.html#table-of-contents"
+  },"20": {
+    "doc": "Scope",
+    "title": "Scope",
+    "content": "The Scope tab defines where annotations are created for each annotation row. It is divided into two main sections: . | Apply On | Object Filter | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Scope.html",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Scope.html"
+  },"21": {
+    "doc": "Scope",
+    "title": "Apply On",
+    "content": "This section defines which files are evaluated by the object filter: . | Current file - The object filter is applied only to the current drawing file. | Current selection - The object filter is applied only to currently selected objects. | Files to apply - Add one or more files (including closed files) where annotations are created. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Scope.html#apply-on",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Scope.html#apply-on"
+  },"22": {
+    "doc": "Scope",
+    "title": "Object Filter",
+    "content": "It defines the location where the new annotations are placed, based on the filtered objects. You can: . | Create a new object filter. | Rename, duplicate, or delete object filters. | Add or remove rules. | Build complex logic using AND / OR conditions. | Apply rules to multiple object types and related properties. | Preview matched objects with Select Filtered. | . Note: the version on the image may not reflect the latest version of DiCivil Package. You can also enable labeling for external references. Object Filter uses a rules-based logic similar to DiRootsOne OneFilter for AutoCAD vertical products. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/AutoAnnotation/AA-Scope.html#object-filter",
+    "relUrl": "/docs/pages/AutoAnnotation/AA-Scope.html#object-filter"
+  },"23": {
+    "doc": "Auto Annotation User Guide",
+    "title": "Auto Annotation User Guide",
+    "content": "Learn how to configure, execute, and reuse annotation templates across projects with Auto Annotation. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/auto-annotation-user-guide",
+    "relUrl": "/docs/auto-annotation-user-guide"
+  },"24": {
+    "doc": "Auto Annotation User Guide",
+    "title": "Overview",
+    "content": "Auto Annotation creates multiple annotation label types by combining annotation settings with scope-based object filtering. You can define where labels are created, standardize templates, and re-execute them across files and projects. Key Features: . | Multi-annotation setup - Configure one or more annotation rows and run selected rows together. | Annotation settings control - Define feature, label type, style, and case-specific inputs. | Scope and filtering - Use file scope and OneFilter-style object rules to control label locations. | Template/profile workflow - Save and reuse standardized configurations across projects. | Re-execution support - Recreate labels after updates while preserving relocated label positions. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/auto-annotation-user-guide#overview",
+    "relUrl": "/docs/auto-annotation-user-guide#overview"
+  },"25": {
+    "doc": "Auto Annotation User Guide",
+    "title": "Getting Started",
+    "content": "Basic Workflow . | Open Auto Annotation - Launch the tool from the DiRoots tab. | Add Annotation Rows - Create one or more rows in the main table. | Configure Annotation Settings - Define feature, label type, and styles per row. | Configure Scope - Choose where to apply and define object filters. | Check Rows to Execute - Select only the rows to create annotations. | Apply - Run Auto Annotation on checked rows. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/auto-annotation-user-guide#getting-started",
+    "relUrl": "/docs/auto-annotation-user-guide#getting-started"
+  },"26": {
+    "doc": "Auto Annotation User Guide",
+    "title": "Next Sections",
+    "content": ". | Main Interface | Annotation Settings | Scope | Profile | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/auto-annotation-user-guide#next-sections",
+    "relUrl": "/docs/auto-annotation-user-guide#next-sections"
+  },"27": {
+    "doc": "Export/Import to Excel",
+    "title": "Export/Import to Excel",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html"
+  },"28": {
+    "doc": "Export/Import to Excel",
+    "title": "Table of contents",
+    "content": ". | Export/Import to Excel . | Overview | Export Process . | Export to Excel | Export Workflow | . | Import Process . | Standard Import Process | Import Workflow | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html#table-of-contents",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html#table-of-contents"
+  },"29": {
+    "doc": "Export/Import to Excel",
+    "title": "Export/Import to Excel",
+    "content": "Drawing Layers provides import and export capabilities that allow you to export layer data to Excel for external editing, analysis, and standardization or backup purposes, as well as import updated layer data with change detection feature. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html"
+  },"30": {
+    "doc": "Export/Import to Excel",
+    "title": "Overview",
+    "content": "Export and import functionality allows you to: . | Export layer data to Excel format for external editing. | Import updated layer data from Excel files. | Detect changes in imported data. | Review and validate changes before applying. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html#overview",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html#overview"
+  },"31": {
+    "doc": "Export/Import to Excel",
+    "title": "Export Process",
+    "content": "Export to Excel . Export data for external editing: . | Layers Export - Export layers data to Excel. | File Saving - Save Excel file with layer data. | External Editing - Edit data in Excel environment. | Data Preservation - Preserve all layer data and properties. | . Export Workflow . | Select Data - Choose data to export (for individual use or collaboration). | Configure Export - Set export options and settings. | Choose Location - Select file save location. | Execute Export - Perform the export operation. | Verify Export - Verify exported data integrity. | Share &amp; Collaborate - Share file with team members for external editing (optional). | Collect Updates - Collect changes from team members and import back to tool (optional). | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html#export-process",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html#export-process"
+  },"32": {
+    "doc": "Export/Import to Excel",
+    "title": "Import Process",
+    "content": "Standard Import Process . The import process provides comprehensive data import capabilities with automatic change detection and flexible configuration options: . | File Selection - Select Excel file for import (updated data or team member files). | Import Configuration - Configure import parameters, data mapping, and validation rules. | Change Detection - Automatically detect and highlight changes with color coding. | Data Selection - Choose specific data subsets, partial imports, or filtered data sets. | Change Review - Review detected changes with visual indicators and summary. | Validation - Validate imported data and detected changes for accuracy. | Custom Options - Create custom import configurations as needed. | . Import Workflow . | Select File - Choose Excel file to import (from team members or updated data). | Configure Import - Set import options and settings. | Review Changes - Review detected changes with color highlighting (changed values highlighted in green). | Validate Data - Validate imported data and changes. | Apply Changes - Apply verified changes to layer data. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Data-Exchange.html#import-process",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Data-Exchange.html#import-process"
+  },"33": {
+    "doc": "Spreadsheet Interface",
+    "title": "Spreadsheet Interface",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html"
+  },"34": {
+    "doc": "Spreadsheet Interface",
+    "title": "Table of contents",
+    "content": ". | Spreadsheet Interface . | Overview | Active Layers Tab . | Editing Workflow . | 1. Select Layer Filter | 2. Layer Property Editing | . | Adding Layers . | Add from Spreadsheet Interface | Add from Excel Import | . | . | Layer States Tab . | State Editing Workflow . | 1. Select Layer States | 2. Modify State Data | . | . | Spreadsheet Interface Features . | Grid Layout | Formula Support | Visual Change Tracking | Bulk Operations | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#table-of-contents",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#table-of-contents"
+  },"35": {
+    "doc": "Spreadsheet Interface",
+    "title": "Spreadsheet Interface",
+    "content": "Drawing Layers provides a familiar spreadsheet interface for editing layer data and layer states directly within the application, making it easy to manage and modify your layer information. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html"
+  },"36": {
+    "doc": "Spreadsheet Interface",
+    "title": "Overview",
+    "content": "The spreadsheet interface offers Excel-like functionality for editing layer data, including formula support. The interface is organized into two main tabs: Active Layers and Layer States, providing comprehensive layer edition capabilities. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#overview",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#overview"
+  },"37": {
+    "doc": "Spreadsheet Interface",
+    "title": "Active Layers Tab",
+    "content": "The Active Layers tab is the main spreadsheet interface for editing all used layer data. Editing Workflow . Edit layer data in two simple steps: . 1. Select Layer Filter . Begin by selecting the desired layer filter to display a specific set of layers in the spreadsheet: . | Filter Selection - Choose a filter to narrow down the layers shown. Easily find and click on the relevant layer filter for editing. | . 2. Layer Property Editing . Edit layer properties directly in the spreadsheet interface: . | Layer Names - Edit layer names and identifiers. | Color Settings - Modify layer colors. | Linetype Properties - Change linetype settings. | Other Properties - Edit any layer property value. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Adding Layers . The spreadsheet interface allows you to add new layers and remove existing layers directly from the Excel format UI. You can add new layers to your document in two ways: . Add from Spreadsheet Interface . Add new layers directly from the spreadsheet interface: . | Right-Click Menu - Right-click on the side rows and select “Add New Row” to insert a new row in the spreadsheet. | Automatic Layer Creation - When a new row is assigned a name, the system automatically creates the corresponding new layer in the document with the default values unless assigned them. | . Add from Excel Import . When importing layer data from an Excel file: . | New Layer Detection - The system automatically identifies when a new layer is added that doesn’t exist in the current document. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#active-layers-tab",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#active-layers-tab"
+  },"38": {
+    "doc": "Spreadsheet Interface",
+    "title": "Layer States Tab",
+    "content": "The Layer States tab provides spreadsheet interface for editing layer states properties within the Drawing Layers application. State Editing Workflow . Manage layer states in two simple steps: . 1. Select Layer States . Begin by selecting the layer states you want to edit: . | State Identification - Find and select the desired layer states from the list. | . 2. Modify State Data . Once selected, modify the properties of the chosen layer states directly in the spreadsheet interface: . | Edit Properties - Change layer names, color and linetype overrides, visibility (on/off, freeze/thaw, lock/unlock), and plot settings. | In-Place Editing - All changes are made directly in the spreadsheet for fast and comprehensive management. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#layer-states-tab",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#layer-states-tab"
+  },"39": {
+    "doc": "Spreadsheet Interface",
+    "title": "Spreadsheet Interface Features",
+    "content": "Grid Layout . Familiar spreadsheet format with rows and columns: . | Row and Column Structure - Standard spreadsheet grid layout. | Direct Cell Editing - Click and edit data directly in cells. | Navigation - Navigate through data using standard spreadsheet controls. | Selection - Select individual cells, rows, or columns. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Formula Support . Excel-like formula functionality: . Note: the version on the image may not reflect the latest version of DiCivil Package. Visual Change Tracking . Track changes with visual indicators: . When you make changes in the spreadsheet interface, any modified values are immediately highlighted in green, making it easy to spot edits. Note: the version on the image may not reflect the latest version of DiCivil Package. Bulk Operations . Efficient bulk editing capabilities: . Bulk operations in the Active Layers tab allow you to efficiently edit multiple layers at once. You can select several cells simultaneously to perform edits across a range of data. Formulas can be applied to multiple rows, enabling quick and consistent updates to layer properties. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#spreadsheet-interface-features",
+    "relUrl": "/docs/pages/DrawingLayers/DL-Spreadsheet-Interface.html#spreadsheet-interface-features"
+  },"40": {
+    "doc": "Drawing Layers User Guide",
+    "title": "Drawing Layers User Guide",
+    "content": "Learn how to use Drawing Layers to edit layer data and layer states using a spreadsheet-format interface, with Excel export and import capabilities. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/drawing-layers-user-guide",
+    "relUrl": "/docs/drawing-layers-user-guide"
+  },"41": {
+    "doc": "Drawing Layers User Guide",
+    "title": "Overview",
+    "content": "Drawing Layers provides a powerful spreadsheet-format interface for editing layer data and layer states. The tool features two main tabs (Active Layers and Layer States) and allows you to manage your layer and state data efficiently using a familiar spreadsheet interface, complete with formula features, and enables export and import data to Excel for external editing. Key Features: . | Active Layers and Layer States - Handles Active Layers and Layer States data. | Spreadsheet Interface - Direct data editing in spreadsheet interface with Excel like formula support. | Formula Capabilities - Concatenate columns, add prefixes, expand formulas. | Excel Export/Import - Export to Excel and import with change detection. | Layer State Management - Edit layer states and properties. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/drawing-layers-user-guide#overview",
+    "relUrl": "/docs/drawing-layers-user-guide#overview"
+  },"42": {
+    "doc": "Drawing Layers User Guide",
+    "title": "Getting Started",
+    "content": "Main Interface . The Drawing Layers tool opens with two main tabs: . | Active Layers Tab - Access and edit all used layers. | Layer States Tab - Edit layer states properties data. | . Image: Main interface of Drawing Layers showing basic navigation Note: the version on the image may not reflect the latest version of DiCivil Package. Basic Workflow . | Open Drawing Layers - From the DiRoots tab. | Choose Tab - Select Active Layers or Layer States tab. | Choose Filter or Layer State - For Active Layers select the filter or the Layer States. | Edit Data - Modify layer data directly in the spreadsheet interface. | Use Formulas - Apply formulas for bulk operations. | Review Changes - Check highlighted changes before applying. | Apply Updates - Confirm and apply changes to layer data. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/drawing-layers-user-guide#getting-started",
+    "relUrl": "/docs/drawing-layers-user-guide#getting-started"
+  },"43": {
+    "doc": "DiCivil Tips",
+    "title": "How to use it",
+    "content": "Now that you know DiCivil and have installed it, let’s learn some good practices for using the plugins in the package. These tips can help you improve your work and save a lot of time. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#how-to-use-it",
+    "relUrl": "/docs/DiCivil-Tips.html#how-to-use-it"
+  },"44": {
+    "doc": "DiCivil Tips",
+    "title": "Table of contents",
+    "content": ". | Collapse and Expand window | Reset Functionality | Resize Window | Sort Columns | Select multiple rows | Double-click in Preferences User Interface | Right-click on the table header with Preferences | Right-click on the row: Context menu | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#table-of-contents",
+    "relUrl": "/docs/DiCivil-Tips.html#table-of-contents"
+  },"45": {
+    "doc": "DiCivil Tips",
+    "title": "Collapse and Expand window",
+    "content": "DiCivil plugins allow you to work with Civil 3D while keeping the plugin window open, but you can get more space to work with Civil 3D. All you have to do is double-click on the window header to Collapse and Expand it. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#collapse-and-expand-window",
+    "relUrl": "/docs/DiCivil-Tips.html#collapse-and-expand-window"
+  },"46": {
+    "doc": "DiCivil Tips",
+    "title": "Reset Functionality",
+    "content": "You can easily undo any changes you’ve made before confirming them by using the Reset functionality. This feature lets you safely revert edits and prevent unwanted modifications from being applied, giving you confidence to experiment without risk before applying changes. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#reset-functionality",
+    "relUrl": "/docs/DiCivil-Tips.html#reset-functionality"
+  },"47": {
+    "doc": "DiCivil Tips",
+    "title": "Resize Window",
+    "content": "Mouse over the edges of the window and click and drag to extend or reduce the window. Note that, there is a limit to how much you can reduce the window, to ensure that all the information in the window is displayed. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#resize-window",
+    "relUrl": "/docs/DiCivil-Tips.html#resize-window"
+  },"48": {
+    "doc": "DiCivil Tips",
+    "title": "Sort Columns",
+    "content": "Click on the column header and sort it by number or alphabetically. Note that not all the tables can be sorted, to ensure its correct behavior. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#sort-columns",
+    "relUrl": "/docs/DiCivil-Tips.html#sort-columns"
+  },"49": {
+    "doc": "DiCivil Tips",
+    "title": "Select multiple rows",
+    "content": "DiCivil plugins have a great advantage for making bulk actions and saving time. To make it simpler, you don’t need to select row by row. Just select one, press the Shift button on your keyboard, and then select the last row. Now you have several rows selected to perform the batch actions. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#select-multiple-rows",
+    "relUrl": "/docs/DiCivil-Tips.html#select-multiple-rows"
+  },"50": {
+    "doc": "DiCivil Tips",
+    "title": "Double-click in Preferences User Interface",
+    "content": "The Preferences User Interface allows the users to add or remove properties to the table of reference. Double-click on the properties or multiple properties to move them to the right or left container. Where to do this: . | Piping Engineer. | Style Helper. | Transfer Object Layers. | Transfer Survey Standards. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#double-click-in-preferences-user-interface",
+    "relUrl": "/docs/DiCivil-Tips.html#double-click-in-preferences-user-interface"
+  },"51": {
+    "doc": "DiCivil Tips",
+    "title": "Right-click on the table header with Preferences",
+    "content": "For tables that have a preferences button for customizable columns, you can quickly add or remove columns directly from the table header without navigating to the preferences button. Right-click on any column header and select the properties or parameters you want to add or remove to customize your table view instantly. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#right-click-on-the-table-header-with-preferences",
+    "relUrl": "/docs/DiCivil-Tips.html#right-click-on-the-table-header-with-preferences"
+  },"52": {
+    "doc": "DiCivil Tips",
+    "title": "Right-click on the row: Context menu",
+    "content": "You can take certain actions on the table rows you have added or created by right-clicking on the data and viewing the available options. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html#right-click-on-the-row-context-menu",
+    "relUrl": "/docs/DiCivil-Tips.html#right-click-on-the-row-context-menu"
+  },"53": {
+    "doc": "DiCivil Tips",
+    "title": "DiCivil Tips",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/DiCivil-Tips.html",
+    "relUrl": "/docs/DiCivil-Tips.html"
+  },"54": {
+    "doc": "Additional Features",
+    "title": "Additional Features",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html"
+  },"55": {
+    "doc": "Additional Features",
+    "title": "Table of contents",
+    "content": ". | Additional Features . | Overview | Dynamic Volume Units . | Unit Options | Select Object Association | . | Context Menu Features . | Right-Click Context Menu | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html#table-of-contents",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html#table-of-contents"
+  },"56": {
+    "doc": "Additional Features",
+    "title": "Additional Features",
+    "content": "The Earthwork Tool provides additional features for enhanced workflow, data management, and user experience. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html"
+  },"57": {
+    "doc": "Additional Features",
+    "title": "Overview",
+    "content": "Additional features include: . | Volume unit input for dynamic volume unit update. | Selection and isolation tools to find the related objects. | Context menu functionality for enhanced workflow. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html#overview",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html#overview"
+  },"58": {
+    "doc": "Additional Features",
+    "title": "Dynamic Volume Units",
+    "content": "The tool provides dynamic volume unit management that allows you to switch between different volume units and dynamically updates all volume calculations instantly. Unit Options . | Cubic Meters (m³) - Metric volume unit. | Cubic Yards (yd³) - Imperial volume unit. | Cubic Feet (ft³) - Imperial volume unit. | Acre-Feet (acre-ft) - Large volume unit for major projects. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Select Object Association . Manage associated elements: . | Select Objects - Choose elements related to the calculation. | Isolate Elements - Focus on specific components. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html#dynamic-volume-units",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html#dynamic-volume-units"
+  },"59": {
+    "doc": "Additional Features",
+    "title": "Context Menu Features",
+    "content": "The tool provides context menu functionality to interact directly with the item. Right-Click Context Menu . | Remove table item - Remove one table item. When deleting a parent, all children are removed. | Add Surface Region - Add child region to parent or existing group. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Additional-Features.html#context-menu-features",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Additional-Features.html#context-menu-features"
+  },"60": {
+    "doc": "Calculations",
+    "title": "Calculations",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html"
+  },"61": {
+    "doc": "Calculations",
+    "title": "Table of contents",
+    "content": ". | Calculations . | Overview | Full Surface Calculation . | Full Volume Surface Workflow . | Full Surface Calculation Workflow | Calculation Results | . | . | Region Calculations . | Overview | Region Workflow | Creating Parent Regions | Creating Child Regions | Integrated Workflow Example: Construction Phasing | . | Totals Description . | Total Hierarchy | . | Best Practices | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#table-of-contents",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#table-of-contents"
+  },"62": {
+    "doc": "Calculations",
+    "title": "Calculations",
+    "content": "The Earthwork Tool provides comprehensive calculation capabilities for cut and fill analysis with both full surface comparisons and region-based calculations. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html"
+  },"63": {
+    "doc": "Calculations",
+    "title": "Overview",
+    "content": "The tool offers two main calculation approaches: . | Full Surface Calculation - Complete calculation comparison across entire surfaces. | Region Volume Surfaces - Region-specific calculations with defined boundaries. | . You can identify the calculation type for each entry in the results table by checking the Type column, which indicates whether it is a full surface comparison, a parent region, or a child region. Additionally, the tool automatically calculates hierarchical totals, so parent and grand total rows display the sum of the relevant cut and fill volumes for their respective regions. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#overview",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#overview"
+  },"64": {
+    "doc": "Calculations",
+    "title": "Full Surface Calculation",
+    "content": "The Earthwork Tool provides comprehensive surface comparison capabilities for calculating cut and fill volumes across entire project areas. Full surface calculation allows you to: . | Calculate cut and fill quantities by comparing two surfaces across the entire project area. | . Full Volume Surface Workflow . Full Surface Calculation Workflow . | Open Earthwork Tool from the DiRoots tab in Civil 3D. | In the main interface, click Add Full Volume Surface to start a new calculation. | Select Existing Surface – Choose the current ground surface representing pre-construction conditions. | Select Proposed/Future Surface – Choose the design or future ground surface representing post-construction conditions. | Click the Execute button to run the calculation and generate cut and fill volumes. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Calculation Results . The tool provides volume analysis: . | Cut Volume - Total volume of material to be removed. | Fill Volume - Total volume of material to be added. | Net Volume - Difference between cut and fill. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#full-surface-calculation",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#full-surface-calculation"
+  },"65": {
+    "doc": "Calculations",
+    "title": "Region Calculations",
+    "content": "The Earthwork Tool provides region-based volume calculations with defined boundaries for region defined earthwork calculation in specific project areas. Overview . Region calculations allow you to: . | Calculate volumes for specific areas using defined boundaries. | Configure subgrade base layer per defined region. | Define hierarchical parent-child groups with partial total calculation. | . Region Workflow . The region workflow combines parent and child regions to create a hierarchical calculation system where parent regions group multiple child regions and provide child group totals. Creating Parent Regions . | Access Parent Region Feature . | Click “Add Region Volume Surfaces” in main UI | . | Parent Region Configuration . | Set parent region name and description | Assign existing and proposed surfaces | Configure topsoil stripping thickness for entire parent group | . | Child Region Management . | Each child will inherit stripping depth configuration from the parent | Parent calculates totals from all children | Create multiple child regions under parent | . | . Creating Child Regions . | Access Child Region Feature . | Select parent and Click “Add Surface Region” (Children Region). (or Right click on the parent region row in the table and click on ‘Add Surface Region’) | Select closed region boundaries | Configure individual region settings | . | Child Region Configuration . | Set region name and description | Each child inherits the existing and proposed surfaces and stripping thickness from the parent | Set the subgrade base depth for this specific child region | . | Individual Calculations . | Each child region calculates independently | Results include cut/fill volumes with stripping consideration | Type column shows “Child Region” for identification | . | . Note: the version on the image may not reflect the latest version of DiCivil Package. Integrated Workflow Example: Construction Phasing . Parent Region: “Phase 1 Construction” . | Stripping thickness: 0.15m (applies to all children) | Existing surface: “Existing_Ground” | Proposed surface: “Phase1_Design” . | Child Region 1: “Building Pad A” . | Subgrade base depth: 0.30m | Inherits: Stripping thickness 0.15m, Existing surface, Proposed surface | Results: Cut: 2,500 m³, Fill: 1,800 m³, Net: 700 m³ cut | . | Child Region 2: “Building Pad B” . | Subgrade base depth: 0.25m | Inherits: Stripping thickness 0.15m, Existing surface, Proposed surface | Results: Cut: 3,200 m³, Fill: 2,100 m³, Net: 1,100 m³ cut | . | Child Region 3: “Parking Area” . | Subgrade base depth: 0.20m | Inherits: Stripping thickness 0.15m, Existing surface, Proposed surface | Results: Cut: 1,500 m³, Fill: 2,200 m³, Net: 700 m³ fill | . | . Parent Region Totals : . | Total Cut: 7,200 m³ | Total Fill: 6,100 m³ | Net: 1,100 m³ cut | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#region-calculations",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#region-calculations"
+  },"66": {
+    "doc": "Calculations",
+    "title": "Totals Description",
+    "content": "The tool maintains hierarchical totals that automatically update when calculations are executed. Total Hierarchy . | Sum of full volume surface and parent region volume surfaces. | Project-wide earthwork balance. | Includes all stripping and subgrade considerations. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#totals-description",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#totals-description"
+  },"67": {
+    "doc": "Calculations",
+    "title": "Best Practices",
+    "content": ". | Verify Region Boundaries - Ensure regions are properly closed. | Check Surface Assignment - Verify correct surfaces are assigned to regions. | Plan Region Hierarchy - Plan parent-child relationships logically. | Use Descriptive Names - Name regions clearly for easy identification. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Calculations.html#best-practices",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Calculations.html#best-practices"
+  },"68": {
+    "doc": "Layer Consideration",
+    "title": "Layer Consideration",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html"
+  },"69": {
+    "doc": "Layer Consideration",
+    "title": "Table of contents",
+    "content": ". | Layer Consideration . | Overview . | Automatic Surface Generation . | Surface Naming Convention | . | . | Topsoil Stripping Layer . | Full Surface Stripping | Region-Based Stripping | . | Subgrade Base Layer . | Region-Based Subgrade Base | . | Data Storage . | Calculation Data Storage | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html#table-of-contents",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html#table-of-contents"
+  },"70": {
+    "doc": "Layer Consideration",
+    "title": "Layer Consideration",
+    "content": "The Earthwork Tool provides layer consideration capabilities with two optional layers that make earthwork calculations easier since the topsoil stripping and subgrade base layers are usually considered when performing earthwork calculations. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html"
+  },"71": {
+    "doc": "Layer Consideration",
+    "title": "Overview",
+    "content": "The tool considers two optional layers to simplify earthwork calculations: . | Topsoil Stripping Layer - Configurable depth for removing topsoil before construction. | Subgrade Base Layer - Configurable depth for subgrade preparation below proposed surfaces. | . Automatic surface generation creates surfaces from the existing and proposed surfaces, using specific naming conventions. Both the topsoil stripping and subgrade base layers are fully integrated into the volume calculations. Automatic Surface Generation . For automatic surface generation, the tool creates: . | Stripping Topsoil Surface - Generated from existing ground surface with specified stripping depth. | Subgrade Base Surface - Generated from proposed surface with specified subgrade depth for defined regions. | . Surface Naming Convention . The tool automatically names generated surfaces using the following convention: . | ‘SGB’ - Subgrade Base surfaces. | ‘STRIP’ - Stripping Topsoil surfaces. | ‘EG’ - Existing Ground surfaces. | ‘FG’ - Future Ground (Proposed) surfaces. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html#overview",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html#overview"
+  },"72": {
+    "doc": "Layer Consideration",
+    "title": "Topsoil Stripping Layer",
+    "content": "The topsoil stripping layer is an optional layer that accounts for the removal of topsoil before construction begins. This layer is typically considered in earthwork calculations to ensure accurate volume estimates. Full Surface Stripping . For full surface comparisons, the stripping layer applies a single configurable depth across the entire project area. Region-Based Stripping . For region-based calculations, all child regions inherit parent stripping depth. Same stripping depth across all children in parent group. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html#topsoil-stripping-layer",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html#topsoil-stripping-layer"
+  },"73": {
+    "doc": "Layer Consideration",
+    "title": "Subgrade Base Layer",
+    "content": "The subgrade base layer is an optional layer that accounts for the preparation depth below the proposed surface. This layer is commonly considered in earthwork calculations to ensure proper foundation preparation. Region-Based Subgrade Base . For region-based calculations, each child region can have its own individual subgrade base depth configuration. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html#subgrade-base-layer",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html#subgrade-base-layer"
+  },"74": {
+    "doc": "Layer Consideration",
+    "title": "Data Storage",
+    "content": "Calculation Data Storage . The tool stores the calculation data for analysis and reporting in the file: . | Structured Organization - Tool creates specific folder and surface naming structure. | Critical Structure - If surface names are modified, data will not display correctly. | User Warning - Do not manually modify created folders or surface names as it could affect the available data in the tool. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Layer-Consideration.html#data-storage",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Layer-Consideration.html#data-storage"
+  },"75": {
+    "doc": "Reporting",
+    "title": "Reporting",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html"
+  },"76": {
+    "doc": "Reporting",
+    "title": "Table of contents",
+    "content": ". | Reporting . | Overview | Excel Export . | Export Process | . | Table Creation . | Creating Tables in Civil3D . | Table Creation Process | . | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html#table-of-contents",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html#table-of-contents"
+  },"77": {
+    "doc": "Reporting",
+    "title": "Reporting",
+    "content": "The Earthwork Tool provides the Excel export functionality for detailed analysis and reporting. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html"
+  },"78": {
+    "doc": "Reporting",
+    "title": "Overview",
+    "content": "Reporting features allow you to: . | Export table data to Excel for further analysis. | Create AutoCAD tables for drawings. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html#overview",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html#overview"
+  },"79": {
+    "doc": "Reporting",
+    "title": "Excel Export",
+    "content": "Export Process . | Export Calculations - After your data is ready, click on ‘Export to Excel’ button. | Generates Excel File - Creates formatted Excel workbook. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html#excel-export",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html#excel-export"
+  },"80": {
+    "doc": "Reporting",
+    "title": "Table Creation",
+    "content": "Creating Tables in Civil3D . The tool can create tables directly in your drawings for documentation and presentation. Table Creation Process . | Create Table - After your data is ready, click on ‘Create Table’ button. | Set Table Style - Set table style. | Insert Table - Place table in drawing at specified location. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/EarthworkTool/EW-Reporting.html#table-creation",
+    "relUrl": "/docs/pages/EarthworkTool/EW-Reporting.html#table-creation"
+  },"81": {
+    "doc": "Earthwork Tool User Guide",
+    "title": "Earthwork Tool User Guide",
+    "content": ". ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/earthwork-tool-user-guide",
+    "relUrl": "/docs/earthwork-tool-user-guide"
+  },"82": {
+    "doc": "Earthwork Tool User Guide",
+    "title": "Overview",
+    "content": "The Earthwork Tool helps you easily perform earthwork cut and fill volume calculations, including region-based volume calculations, considering topsoil stripping and subgrade base layers. It’s your solution for construction earthwork workflows, built for accuracy and speed. Key Features: . | Full Volume Surface - Complete surface comparison between surfaces for cut/fill calculations. | Region Volume Surfaces - Multiple region-based cut/fill calculations with defined boundaries. | Topsoil Stripping Layer - Includes Topsoil Stripping surfaces consideration with configurable depth. | Subgrade Base Layer - Includes Subgrade base layer consideration with configurable depth for defined regions. | Dynamic Volume Units - Switch between m³, yd³, ft³, acre-ft instantly. | Report - Create Civil3D tables and export data to Excel for reporting purposes. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/earthwork-tool-user-guide#overview",
+    "relUrl": "/docs/earthwork-tool-user-guide#overview"
+  },"83": {
+    "doc": "Earthwork Tool User Guide",
+    "title": "Getting Started",
+    "content": "Main Interface . The Earthwork Tool is accessed through the DiRoots tab in Civil 3D. The main UI provides two primary calculation types: . | Add Full Volume Surface - Complete calculation comparison across entire surfaces. (Label 1 button in image 01) | Add Region Volume Surfaces - Region-specific calculations with defined boundaries. | Add Region Vol. Surface (Parent Region): Group all the children region calculations (Label 2 button in image 01). | Add Surface Region (Children Region): Individual boundary defined region. (Label 3 button in image 01) | . | . Image: Tool snapshot showing the different earthwork calculation types Note: the version on the image may not reflect the latest version of DiCivil Package. Basic Workflow . | Open Earthwork Tool - From the DiRoots tab. | Choose Calculation Type - Add full volume or region volume. | Select Surfaces - Choose existing and proposed/future surfaces. | Configure Layers (optional) - Set up topsoil stripping and subgrade base layers. | Execute Calculations - Run volume analysis. | Review Results - Check cut/fill volumes and totals. | Create Reports - Export data to Excel or create Civil3D tables. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/earthwork-tool-user-guide#getting-started",
+    "relUrl": "/docs/earthwork-tool-user-guide#getting-started"
+  },"84": {
+    "doc": "Earthwork Tool User Guide",
+    "title": "Documentation Structure",
+    "content": "This user guide is organized into the following sections: . | Calculations - Detailed explanation of calculation methods, parent and child region workflows, and totals description | Layer Consideration - Topsoil stripping and subgrade base surface configuration and data storage | Reporting - Excel export and AutoCAD table creation | Additional Features - Context menus, selection tools, and workflow features | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/earthwork-tool-user-guide#documentation-structure",
+    "relUrl": "/docs/earthwork-tool-user-guide#documentation-structure"
+  },"85": {
+    "doc": "Main Interface",
+    "title": "Main Interface",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Main-Interface.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Main-Interface.html"
+  },"86": {
+    "doc": "Main Interface",
+    "title": "Table of contents",
+    "content": ". | Main Interface . | Overview | Main Interface Components . | Add Surface Grading button | Surface Selection And Creation | Section Reference . | Reference Path Type Options | . | Grading Type Name | Section Selection | Section Placement Selection | Feature Line Settings . | Feature Line Breakline Settings | . | Accessing Grading and Section Setups | Apply Grading | Profile Modification | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Main-Interface.html#table-of-contents",
+    "relUrl": "/docs/pages/GradingPro/GP-Main-Interface.html#table-of-contents"
+  },"87": {
+    "doc": "Main Interface",
+    "title": "Main Interface",
+    "content": "The Grading Pro tool is accessed through the DiRoots tab in Civil 3D. The main interface provides a comprehensive workflow for surface grading operations, from initial setup to final application. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Main-Interface.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Main-Interface.html"
+  },"88": {
+    "doc": "Main Interface",
+    "title": "Overview",
+    "content": "The main interface serves as the central hub for all Grading Pro operations, allowing you to: . | Add Surface Grading - Primary function to modify and create new surfaces. | Access Setup Grading - Configure sections and section placements. | Select Reference Path - Define the section reference path for section placement. | Configure Feature Lines - Set up feature line settings. | Modify Profiles - Adjust grading profiles as needed. | Find and Define Related Gradings - Locate and configure grading types. | Apply Grading - Execute the surface modifications. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Main-Interface.html#overview",
+    "relUrl": "/docs/pages/GradingPro/GP-Main-Interface.html#overview"
+  },"89": {
+    "doc": "Main Interface",
+    "title": "Main Interface Components",
+    "content": "Add Surface Grading button . The ‘Add Surface Grading’ button is the primary function that initiates the surface grading process. This button serves as the entry point for creating or modifying grading surfaces and provides access to all grading configuration options. Surface Selection And Creation . After adding a surface grading, choose existing surfaces to modify from your Civil 3D project or create a new one: . Note: the version on the image may not reflect the latest version of DiCivil Package. Section Reference . Define the section reference path for section placement by selecting the appropriate path type. The Section Reference is the main path that defines the origin of the section placement in the 3D space. Reference Path Type Options . After clicking on the column button, the user is prompted to select a reference path type, you can choose from the following options: . | Alignment + Auto Corridor Feature Line Use both an alignment and an auto corridor feature line as the reference. | Only Auto Corridor Feature Line Use only the automatically generated corridor feature line as the reference. | Feature Line Use any existing feature line as the reference path. The stations on this objects are defined from the creation origin of the feature line. | Corridor + Auto Corridor Feature Line Use the corridor and the corridor feature line as the reference. | . Select the option that best fits your scenario. The interface will display these options in Civil3D, as shown in the image below: . Image: Snapshot showing the multiple reference path type options Note: the version on the image may not reflect the latest version of DiCivil Package. Note: the version on the image may not reflect the latest version of DiCivil Package. Grading Type Name . Assign a custom name to your grading configuration for easy identification and reference later. This name helps you quickly recognize and manage different grading setups within your project. Section Selection . Select your section setups from the configured section definitions. For detailed information on section configuration, see Section Setup. Section Placement Selection . Select your section placements that define where sections are applied. For detailed information on Section Placement Setup, see Section Placement Setup. Feature Line Settings . The Feature Line Settings panel allows you to configure how feature lines are created and managed as part of your grading design. In this section of the interface (see image below), you can: . | Select/Create Output Site – Specify the target site for new feature lines. | Assign Feature Line Style – Choose the style to apply to generated feature lines. | Layer Assignment – Set the layer for output feature lines. | . Feature Line Breakline Settings . You can set Feature Line Breakline Settings so that when feature lines are added to the surface, they are applied as breaklines with the correct options. This ensures surfaces are built or updated consistently with your grading design. | Default values – If you leave any breakline options unset, the tool uses sensible defaults (as in the Civil 3D Add Breaklines workflow). You can rely on these when you don’t need to change specific settings. | Input logic – The UI follows the same input logic as Civil 3D’s Add Breaklines command. Extra inputs are available where needed for different breakline type cases. | Profile storage – Breakline settings are saved in grading profiles together with the rest of your configuration. Existing profiles continue to work as before; the new settings are stored without disrupting previous profile usage. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Accessing Grading and Section Setups . The main interface provides different ways to access configuration and setup options: . | Grading Setup - Click the “Grading Setup” button (with gear icon) in the upper-right section to access overall grading configuration options. | Current Section Setup - Click the gear icon next to the “Section” column header to access the current selected Section Setup. | Current Section Placement Setup - Click the gear icon in the “Section Placement” column to access the current selected section placement settings. | . These setup options allow you to customize the grading behavior and section configurations before applying them to your surfaces. Apply Grading . Execute the surface modifications with your configured settings: . | Check Gradings to apply - Check the settings the user wants to execute. | Apply Grading - Click on the ‘Apply’ button to set the grading on the checked grading setups. | Results Confirmation - The status column shows the status of each executed grading. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Profile Modification . Save, share and modify grading profiles to achieve quick desired design outcomes: . For detailed information on profile management, see Profile Management. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Main-Interface.html#main-interface-components",
+    "relUrl": "/docs/pages/GradingPro/GP-Main-Interface.html#main-interface-components"
+  },"90": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Profile.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Profile.html"
+  },"91": {
+    "doc": "Profile",
+    "title": "Table of contents",
+    "content": ". | Profile . | Overview | What’s saved in the profile | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Profile.html#table-of-contents",
+    "relUrl": "/docs/pages/GradingPro/GP-Profile.html#table-of-contents"
+  },"92": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": "Grading Pro includes a profile system that allows you to save and reuse grading configuration and setups, making it easy to maintain consistent configurations across multiple projects and use multiple configurated profiles quickly. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Profile.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Profile.html"
+  },"93": {
+    "doc": "Profile",
+    "title": "Overview",
+    "content": "Profile system allows you to: . | Save configuration settings for reuse. | Switch between different profile templates. | Maintain consistent settings across projects. | Share profiles across teams. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Profile.html#overview",
+    "relUrl": "/docs/pages/GradingPro/GP-Profile.html#overview"
+  },"94": {
+    "doc": "Profile",
+    "title": "What’s saved in the profile",
+    "content": "The following settings are saved in the profiles. | The set configured Grading types. | The customized set of Sections Setup. | The customized set of Sections Placement Setup. | The set of configuration applied to the entire document. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Profile.html#whats-saved-in-the-profile",
+    "relUrl": "/docs/pages/GradingPro/GP-Profile.html#whats-saved-in-the-profile"
+  },"95": {
+    "doc": "Section Placement Setup",
+    "title": "Section Placement Setup",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html"
+  },"96": {
+    "doc": "Section Placement Setup",
+    "title": "Table of contents",
+    "content": ". | Section Placement Setup . | Overview | Manage Section Placement Items . | Creating, Duplicating and Removing | . | Individual Section Placements . | Creating Individual Section Placements | . | Range-based Section Placements . | Creating Range-based Section Placements | . | Additional Input Settings . | Side and Angle Settings | . | Creating Individual Section Placements from Main UI | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#table-of-contents",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#table-of-contents"
+  },"97": {
+    "doc": "Section Placement Setup",
+    "title": "Section Placement Setup",
+    "content": "Grading Pro provides Section Placement Setup capabilities for creating and organizing section placements along reference paths with individual and range-based configurations. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html"
+  },"98": {
+    "doc": "Section Placement Setup",
+    "title": "Overview",
+    "content": "Section placement setup allows you to: . | Create individual section placements at specific locations. | Generate range-based section placements with intervals. | Configure side and angle settings for section placement. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#overview",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#overview"
+  },"99": {
+    "doc": "Section Placement Setup",
+    "title": "Manage Section Placement Items",
+    "content": "Creating, Duplicating and Removing . Manage your Section Placement list by creating new, setting a associated name to later refer to the configuration, duplicating, and removing new types . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#manage-section-placement-items",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#manage-section-placement-items"
+  },"100": {
+    "doc": "Section Placement Setup",
+    "title": "Individual Section Placements",
+    "content": "After defining the Section Placement Item, the user can add multiple individual stations on the selected Section Placement . Creating Individual Section Placements . Create section placements at specific locations: . | Add Individual Station - Create individual section from the ‘Individual’ button. | . Configure individual section placement settings: . | First Station Input - Enter the station value for the section placement. This input sets the location along the reference path where the section will be placed. The value can be typed directly or selected using the station picker button to choose a precise location from the drawing. | Station Selection button - Select individual stations for modification. This feature allows the user to pick the exact point location from the drawing for each individual section placement. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Note: You can also add a station directly from the main UI, as described in the “Creating Individual Section Placements from Main UI” section at the end of this page. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#individual-section-placements",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#individual-section-placements"
+  },"101": {
+    "doc": "Section Placement Setup",
+    "title": "Range-based Section Placements",
+    "content": "After defining the Section Placement Item, the user can add multiple individual stations on the selected Section Placement . Creating Range-based Section Placements . Generate multiple individual section placements in ranges with intervals: . | Add Range of Stations - Create range-based section placements from the ‘Range Of Stations’ button | . Configure range-based section placement settings: . | Range Start Input - Enter the starting station value for the range. This input sets the beginning location along the reference path where the range will start. | Range End Input - Enter the ending station value for the range. This input sets the final location along the reference path where the range will end. | . For the previous inputs, the value can be typed directly or selected using the station picker button to choose a precise location from the drawing. | Station Interval Input - Enter the interval value between individual stations within the range. This defines the spacing between each section placement generated within the specified range. | Station Selection Buttons - Select precise station locations from the drawing for Range Start, Range End, and First Station. These features allow the user to pick exact point locations from the drawing for each range parameter. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#range-based-section-placements",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#range-based-section-placements"
+  },"102": {
+    "doc": "Section Placement Setup",
+    "title": "Additional Input Settings",
+    "content": "Side and Angle Settings . Configure section placement orientation and side: . | Side Selection - Choose which side of the path to place sections. Right, Left or Both sides. | Angle Definition - Define the angle of section placement. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#additional-input-settings",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#additional-input-settings"
+  },"103": {
+    "doc": "Section Placement Setup",
+    "title": "Creating Individual Section Placements from Main UI",
+    "content": "You can create multiple individual stations directly from the main interface using the squiggly line icon in the “Section Placement” column. This feature allows you to: . | Create Quick Individual Stations - Click the squiggly line icon to create individual stations directly from the main UI. | Side Definition - Define individual stations on the side where you are clicking. | Default Angle and naming - Stations are created with a default 90-degree angle and default naming based on the picked location. | Section Reference Constraint - Station selection is constrained to the Section Reference that has been selected. | . This provides a fast and intuitive way to place individual stations without navigating to separate setup dialogs. After creation, the user can go to the settings to make any update. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Placement-Setup.html#creating-individual-section-placements-from-main-ui",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Placement-Setup.html#creating-individual-section-placements-from-main-ui"
+  },"104": {
+    "doc": "Section Setup",
+    "title": "Section Setup",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html"
+  },"105": {
+    "doc": "Section Setup",
+    "title": "Table of contents",
+    "content": ". | Section Setup . | Overview | Manage Sections . | Creating, Duplicating and Removing | . | Point Definition Methods . | Distance with Offset | Distance with Slope | Offset with Slope | Slope to Surface | Point to Feature Line | . | Nested Section . | Nested Section At Object | . | Object Feature Line Integration . | Overview | Adding Object Feature Lines into Sections | Applications | . | Point Management . | First Point | Adding and Removing Points | Reordering Points | Parallel Creation | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#table-of-contents",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#table-of-contents"
+  },"106": {
+    "doc": "Section Setup",
+    "title": "Section Setup",
+    "content": "Grading Pro provides a section setup capability with multiple definition methods for precise grading design. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html"
+  },"107": {
+    "doc": "Section Setup",
+    "title": "Overview",
+    "content": "Section configuration allows you to: . | Create Section types that can be reused across projects. | Define sections using multiple point methods (distance with offset, distance with slope, offset with slope, slope to surface, point to feature line). | Create nested sections for advanced and flexible grading designs. | Setup section points efficiently with add, remove, and reorder capabilities. | Shows each point location on the section view. | Add feature lines as objects in your section definitions for greater control and flexibility. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#overview",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#overview"
+  },"108": {
+    "doc": "Section Setup",
+    "title": "Manage Sections",
+    "content": "Creating, Duplicating and Removing . Manage your Section list by creating new, setting an associated name to later refer to the configuration, duplicating and removing new types. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#manage-sections",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#manage-sections"
+  },"109": {
+    "doc": "Section Setup",
+    "title": "Point Definition Methods",
+    "content": "After creating a new section, select on the left and start adding points in the section. On each point definition, the user can define the following different methods. Distance with Offset . Define a point based on distance and offset: . | Distance - Specify distance from the previous point or origin. | Height/Offset - Specify offset values from the previous point or origin. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Distance with Slope . Define a point based on distance and slope: . | Distance - Specify distance from the previous point or origin. | Slope Percentage - Specify slope percentage for point or origin. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Offset with Slope . Define a point by offset and slope: . | Height/Offset - Specify offset values from the previous point or origin. | Slope Percentage - Specify slope percentage for point elevation. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Slope to Surface . Define points by slope from the previous point projected to the selected surface: . | Offset from Path - Specify offset distance from the reference path. | Slope Percentage - Specify slope percentage for point elevation. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Point to Feature Line . Define a point that connects to a target feature line on the section direction: . | Feature Line Selection - Select a target feature line using the pick button. The feature line name is displayed when selected. | Point Calculation - The point position is calculated at the feature line intersection on the section plane at runtime. | . This method allows you to create sections that align with existing feature lines (e.g., pathway case connection to road). The feature line is stored in the profile based on its unique name, allowing it to be reused across different projects. If the feature line does not exist in the active file, an error message will be displayed. Since the new target intersection point at the feature line is unknown before execution, the section view result could be different from the real transversal section created when using this method. In the section view when using this method, it shows an horizontal arrow with a semi-circular reference. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#point-definition-methods",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#point-definition-methods"
+  },"110": {
+    "doc": "Section Setup",
+    "title": "Nested Section",
+    "content": "Grading Pro allows you to create nested sections that can be placed at different locations and orientations, enabling advanced and flexible grading designs. Nested sections are created at runtime and can reference other sections within your design. Nested Section At Object . Define a nested section that can be placed at any direction from any location using an ‘Object Feature Line’ as reference: . | Object Selection - Select an Object Feature Line from the current section’s objects list. This object serves as the reference placement for the nested section placement. | Point and Direction - Specify the insertion point and direction for the nested section based on the original ‘Object Feature Line’. Use the pick button to select a point and direction in the drawing (two clicks), or manually enter coordinates and direction vector values. | Nested Section Selection - Choose the section that will be created at the specified point and direction from the available sections list. | . This method enables you to create advanced and flexible grading designs by nesting different sections at various locations and orientations. The nested section is created at runtime, with the point position calculated using the projected direction. Important Notes: . | The nested section could not necessarily be set on the same section plane as the parent section. The nested section position is set based to the Object defined point and direction. | This method does not modify subsequent points in the section. | . The following example demonstrates adding 2 nested sections ‘New Section (2)’ to an object defined by ‘New Section (1)’: . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#nested-section",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#nested-section"
+  },"111": {
+    "doc": "Section Setup",
+    "title": "Object Feature Line Integration",
+    "content": "Grading Pro allows you to add feature lines as objects in your section definitions, providing greater control and flexibility in grading design. Overview . Feature line integration enables you to: . | Use existing feature lines of platforms, or other geometric objects as part of your section definitions. | Maintain exact geometry from existing designs while incorporating them into new grading scenarios. | Achieve precise control over complex geometric forms. | Ensure design consistency with existing elements. | . Adding Object Feature Lines into Sections . Follow these steps to add feature lines to your section definitions: . | Open Section Setup Go to the “Section Setup” tab within Grading Pro. | Add Object Feature Lines Click the “Object Feat. Lines” button to begin the integration process. | Select Feature Lines or Objects Choose the set of feature lines like platforms, or other geometric objects you want to include in your section. | Specify Origin Point Select where the feature line will connect to the section. You can choose the midpoint, an endpoint, or a custom point along the feature line. The origin point determines how the feature line is positioned within the section and the elevation referenced from the object is at zero. | Set Orientation Define the orientation by selecting which end or direction the feature line should follow. Adjust rotation or placement as needed to ensure the feature line aligns correctly with your section design. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Applications . Feature line integration supports various grading design scenarios. | Reusable Objects - Create standard feature line elements that can be applied across multiple sections, saving time while maintaining consistent design quality and workflow efficiency. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#object-feature-line-integration",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#object-feature-line-integration"
+  },"112": {
+    "doc": "Section Setup",
+    "title": "Point Management",
+    "content": "First Point . | The first point could be placed on the origin (0, 0) or at a distance offset from the origin. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Adding and Removing Points . Add or remove points to section setups: . Note: the version on the image may not reflect the latest version of DiCivil Package. Reordering Points . Reorder points in section definitions: . Note: the version on the image may not reflect the latest version of DiCivil Package. Parallel Creation . You can connect section points with a parallel offset connection from the original reference. Points that use this connection are joined by a parallel feature line that follows the section reference, example usage cases are swales, etc. In the Section Setup configuration table: . | Parallel Connection checkbox column – The point table includes a Parallel Connection column. For each point, check the box to use a parallel offset connection from the reference for that point. When checked, the point is included in the parallel feature line; when unchecked, it is not. | . The tool creates the parallel feature line from the first section placement through the last section placement. The feature line follows the location and elevation defined by the section at each placement, so the grading stays consistent with your section definition along the full extent. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/GradingPro/GP-Section-Setup.html#point-management",
+    "relUrl": "/docs/pages/GradingPro/GP-Section-Setup.html#point-management"
+  },"113": {
+    "doc": "Grading Pro User Guide",
+    "title": "Grading Pro User Guide",
+    "content": "Learn how to use Grading Pro to create or modify surfaces reusable across different project. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/grading-pro-user-guide",
+    "relUrl": "/docs/grading-pro-user-guide"
+  },"114": {
+    "doc": "Grading Pro User Guide",
+    "title": "Overview",
+    "content": "Grading Pro modifies or creates surfaces based on sections positioned from a reference. The defined sections and setup can be stored and reused across projects. Whether you’re designing proposed terrain, pads, or optimizing cut/fill, Grading Pro takes the complexity out of site grading with multi-criteria reusable surface design. Key Features: . | Surface Grading - Main functionality to modify or to add surfaces with defined grading. | Grading Setup - Two-tab interface to setup sections and sections placement. | Section Definition Methods - A variety of methods to set points defining the feature lines. | Flexible Section Placement Setups - Individual and range-based station configurations. | Template System - Save and reuse configurations across projects. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/grading-pro-user-guide#overview",
+    "relUrl": "/docs/grading-pro-user-guide#overview"
+  },"115": {
+    "doc": "Grading Pro User Guide",
+    "title": "Getting Started",
+    "content": "Basic Workflow . | Open Grading Pro - From the DiRoots tab. | Select Surface - Choose the surface to modify. | Select Path - Choose alignment or path for section placement. | Set Grading Setup - Set up section and section placements. | Apply Changes - Execute the surface modifications. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/grading-pro-user-guide#getting-started",
+    "relUrl": "/docs/grading-pro-user-guide#getting-started"
+  },"116": {
+    "doc": "Elevation Design",
+    "title": "Elevation Design",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html"
+  },"117": {
+    "doc": "Elevation Design",
+    "title": "Table of contents",
+    "content": ". | Elevation Design . | Overview | Elevation Design Inputs . | Elevation Design Reference | Structure Drop | . | Elevation Design Modes . | 1. Auto Flow Edition | 2. Hold Reference Modes . | 2.1. Hold Reference: Pipe Highest Point | 2.2. Hold Reference: Pipe Lowest Point | 2.3. Hold Slope | 2.4. Hold Reference: Pipe Start or Pipe End | . | . | General Workflow | Workflow Examples . | Example 1: Adjusting Multiple Pipes Slope with Auto Flow Edition | Example 2: Adjusting Multiple Pipes Slope with Auto Flow Edition | Example 3: Moving System Down While Preserving Slopes | Example 4: Moving Pipes Up/Down with Delta Value | Example 5: Editing Pipe Holding Start or End Reference | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#table-of-contents",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#table-of-contents"
+  },"118": {
+    "doc": "Elevation Design",
+    "title": "Elevation Design",
+    "content": "Piping Engineer provides advanced elevation design capabilities with auto-edition mode that includes hold reference options and automatic flow direction adjustments. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html"
+  },"119": {
+    "doc": "Elevation Design",
+    "title": "Overview",
+    "content": "Elevation design allows you to: . | Select the elevation design reference point (Invert, Center, or Crown) for displaying and calculating pipe elevations. | Set structure drop values to position pipes at structure location based on flow direction. | Control piping network elevations with multiple reference strategies | Automatically adjust pipes near edited elements to maintain system flow by gravity (when Auto Flow Edition is enabled) | Maintain system integrity during elevation modifications | . By selecting the elevation design reference, setting the structure drop, and modifying the ‘Slope’, ‘Start Elevation’, ‘End Elevation’ and using the Edition Modes inputs of ‘Hold Reference’ and ‘Auto Flow Edition’, the user can design easily their pipes in elevation. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#overview",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#overview"
+  },"120": {
+    "doc": "Elevation Design",
+    "title": "Elevation Design Inputs",
+    "content": "Elevation Design Reference . The Elevation Design Reference feature allows you to select the pipe elevation reference point from which pipe elevations are displayed and calculated. This setting affects how the start and end elevations are shown in the table and how the elevations are calculated. Available Elevation Reference Options: . | Invert (Bottom) - The default reference mode. Elevations are referenced from the bottom (invert) of the pipe. | Center - Elevations are referenced from the center of the pipe. | Crown (Top) - Elevations are referenced from the top (crown) of the pipe. | . How It Works: . | Select the desired elevation reference using the radio button inputs in the interface. | The table will automatically update to display the start and end elevations based on the selected reference point. | . Usage: . | Select the Elevation Design Reference before modifying pipe elevations to ensure calculations use the correct reference point. | Choose the reference that best matches your design workflow: Invert for standard pipe design, Center for pipe centerline elevations, or Crown for top-of-pipe elevations. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Structure Drop . The Structure Drop feature allows you to automatically add a vertical drop at structure locations when designing pipes. This helps ensure pipes are positioned correctly at structures based on the flow direction. How It Works: . | The Structure Drop input field allows you to specify a drop value (default is zero). | When pipes are modified and the Structure Drop value is different from zero, the outlet pipe elevation from a structure is automatically calculated. | The calculation uses the inlet pipe with the lowest elevation plus the specified drop value. | This applies to all pipes in multi-selection scenarios. | The drop is added between pipes at structure locations, following the flow direction of the system. | . Usage: . | Set the Structure Drop value before modifying pipe elevations. | When editing multiple pipes, the tool automatically applies the drop at structure locations based on flow direction. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#elevation-design-inputs",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#elevation-design-inputs"
+  },"121": {
+    "doc": "Elevation Design",
+    "title": "Elevation Design Modes",
+    "content": "1. Auto Flow Edition . Auto Flow Edition is a toggle control that edits pipe elevation to keep the flow on the system. When enabled, the tool automatically updates pipes near the edited pipes to keep the system flow by gravity. Auto Flow Edition ON: . | Automatically adjusts pipes near the edited elements to maintain system connectivity | The pipe system is automatically moved up/down keeping the same slope, if the new edited pipe position no longer allows the system to flow by gravity | Preserves the slopes of the affected pipes | See example 1 and example 2 | . Auto Flow Edition OFF: . | Modifies only the selected elements without affecting the rest of the system | No automatic adjustments are made to maintain connectivity | See example 3 | . 2. Hold Reference Modes . The tool has the following options to hold or keep an existing reference so the pipes are modified maintaining their current reference elevation or slope. 2.1. Hold Reference: Pipe Highest Point . Holds the highest point from the edited pipes as the elevation reference and allows adjustment of the slope. The user can modify multiple rows slope at the same time. See example 1. 2.2. Hold Reference: Pipe Lowest Point . Holds the lowest point from the edited pipes as the elevation reference and allows adjustment of the slope. The user can modify multiple rows slope at the same time. See example 2. 2.3. Hold Slope . Holds the slope of the edited pipes. The user can adjust start/end elevations and move the entire system up/down with the difference value. See example 3. | Move entire system up or down while preserving slopes. Value moved is the difference between the edited and previous value. | Only elevation values can be changed | Move Pipes Up/Down: Directly input a delta value to move selected pipes up or down while preserving slopes . | Input positive values to move pipes up | Input negative values to move pipes down | The feature is only available when pipes are selected | Changes are applied directly to the selected items using the custom enter button | See example 4. | . | . 2.4. Hold Reference: Pipe Start or Pipe End . Holds the pipe start or pipe end as the elevation reference, or the user can modify the slope holding the same pipe start or end reference: . | Pipe Start. References the starting point elevation of the pipe | Pipe End. Reference the ending point elevation of the pipe | In this mode the user can modify the elevations directly using the edition modes | See example 5 | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#elevation-design-modes",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#elevation-design-modes"
+  },"122": {
+    "doc": "Elevation Design",
+    "title": "General Workflow",
+    "content": ". | Refresh the latest data. | Select the Elevation Design Reference (Invert, Center, or Crown). | Set the Structure Drop value (if needed). | Identify the pipes to move. | Define the Hold Reference. | Enable or disable Auto Flow Edition. | Set the pipe(s) new values. | Apply changes. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#general-workflow",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#general-workflow"
+  },"123": {
+    "doc": "Elevation Design",
+    "title": "Workflow Examples",
+    "content": "Example 1: Adjusting Multiple Pipes Slope with Auto Flow Edition . | Identify pipes that need adjustment and select them. | Set Hold Reference. Set the hold reference to the highest point of edited pipes. | Enable Auto Flow Edition to automatically adjust pipes near the edited ones. | Set pipe new values. Enter new slope in multiple pipes (e.g. 4%). | Apply changes. The system adjusts selected pipes and automatically adjusts nearby pipes to maintain system connectivity. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Example 2: Adjusting Multiple Pipes Slope with Auto Flow Edition . | Identify pipes that need adjustment and select them. | Set Hold Reference. Set the hold reference to the lowest point of edited pipes. | Enable Auto Flow Edition to automatically adjust pipes near the edited ones. | Set pipe new values. Enter new slope in multiple pipes (e.g. 3%). | Apply changes. The system adjusts selected pipes and automatically adjusts nearby pipes to maintain system connectivity. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Example 3: Moving System Down While Preserving Slopes . | Identify pipes to modify and select them. In this case the first pipe or pipes of the system to move up or down. | Set Hold Reference and Auto Flow Edition. Set the hold reference to “Hold Slope”. Disable Auto Flow Edition to modify only selected elements. | Modify elevation (e.g. from 649 to 648 - moving system up 1 units). | Apply changes. The system moves up while preserving all slopes. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Example 4: Moving Pipes Up/Down with Delta Value . | Identify pipes to move and select them. | Set Hold Reference. Set the hold reference to “Hold Slope” to preserve pipe slopes during movement. | Input delta value. Enter the desired movement value directly (e.g., +2.5 to move up 2.5 units, or -1.5 to move down 1.5 units). | Apply changes. The selected pipes are moved up or down by the specified delta value while preserving all slopes. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Example 5: Editing Pipe Holding Start or End Reference . This example demonstrates how to edit a pipe while holding either the start or end elevation reference. You can modify either the slope or the elevation while maintaining the selected reference point. | Identify specific pipe to modify. | Set Hold Reference. Set the hold reference to “Pipe Start” or “Pipe End” to maintain the reference point elevation. | Set Auto Flow Edition. Disable Auto Flow Edition to modify only selected elements. | Modify pipe values: . | To modify slope: Enter new slope value. The pipe slope is adjusted while the start or end elevation remains fixed. | To modify elevation: Enter new elevation value. The elevation is adjusted while maintaining the selected reference point (start or end). | . | Apply changes. Selected pipes are modified without affecting the rest of the system. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Elevation-Design.html#workflow-examples",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Elevation-Design.html#workflow-examples"
+  },"124": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Pipe and Structure Data Tables",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html"
+  },"125": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Table of contents",
+    "content": ". | Selecting Network Data | Pipe and Structure Data Tables . | Overview | Table Column Preferences Customization | Example Usage Cases . | Part Swapping | Structure to Reference Surface Update | . | . | Additional Features . | Rule Validation Display | Quick Slope Override Rule | Find and Replace | Refreshing Latest Data | Basic Workflow | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#table-of-contents",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#table-of-contents"
+  },"126": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Selecting Network Data",
+    "content": "The selection method applies to both the Elevation Design tab table and the General Data tables. The tool provides 3 modes to select your network data to display: . | By Selection of Pipes/Structures - Select the objects to show. | By Piping Network - Select the network to display the data. | By Pipe Run - Select the initial and last Pipe/Structure. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#selecting-network-data",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#selecting-network-data"
+  },"127": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Pipe and Structure Data Tables",
+    "content": "Piping Engineer provides comprehensive table interfaces for managing pipes and structures with efficient data management and bulk operations capabilities. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html"
+  },"128": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Overview",
+    "content": "Pipe and structure data tables allow you to: . | Manage the pipes and structures data through independent table interfaces. | Perform bulk operations on multiple elements. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#overview",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#overview"
+  },"129": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Table Column Preferences Customization",
+    "content": "The tools allows you to customize the data columns you want to show in each of your tables by clicking on the ‘Preferences’ button and adding the required properties in the lef panel as shown below. Note: the version on the image may not reflect the latest version of DiCivil Package. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#table-column-preferences-customization",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#table-column-preferences-customization"
+  },"130": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Example Usage Cases",
+    "content": "After configuring the column preferences of the table, the user can edit the properties required. For example, we have the following edition cases: . Part Swapping . The user can select the pipes and swap their part directly from the table interface. Note: the version on the image may not reflect the latest version of DiCivil Package. Structure to Reference Surface Update . The user can select the structure and update the reference of the surface from the table interface. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#example-usage-cases",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#example-usage-cases"
+  },"131": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Additional Features",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#additional-features",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#additional-features"
+  },"132": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Rule Validation Display",
+    "content": "The tool hightligts the pipes/structures elements that are not complying with the rules in red background color . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#rule-validation-display",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#rule-validation-display"
+  },"133": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Quick Slope Override Rule",
+    "content": "Piping Engineer allows users to define a quick rule to check the slope range in the tool. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#quick-slope-override-rule",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#quick-slope-override-rule"
+  },"134": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Find and Replace",
+    "content": "Piping Engineer includes the ‘Find and Replace’ feature to quickly find and replace property values across selected columns. This feature allows you to edit values efficiently by finding current editable property values and replacing them with new values, optionally adding prefixes and suffixes. For more information about the ‘Find and Replace’ feature, including usage instructions, see the Find and Replace section in the Style Helper User Guide. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#find-and-replace",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#find-and-replace"
+  },"135": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Refreshing Latest Data",
+    "content": "The tool has a refresh button to update the latest data from the file. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#refreshing-latest-data",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#refreshing-latest-data"
+  },"136": {
+    "doc": "Pipe and Structure Data Tables",
+    "title": "Basic Workflow",
+    "content": ". | Open Piping Engineer - From the DiRoots tab. | Select Network - Choose the piping network to work with. | Choose Tool - Select the appropriate tool tab(Elevation Design, General Data.). | Configure Settings - Set up tool-specific parameters and options. | Apply Changes - Execute modifications and validate results. | Save Profile - Save configurations for future use. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#basic-workflow",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Pipes-Structures-Tables.html#basic-workflow"
+  },"137": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Profile.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Profile.html"
+  },"138": {
+    "doc": "Profile",
+    "title": "Table of contents",
+    "content": ". | Profile . | What’s saved in the profile | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Profile.html#table-of-contents",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Profile.html#table-of-contents"
+  },"139": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": "Piping Engineer profile makes it easy to save your settings and reuse them later. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Profile.html",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Profile.html"
+  },"140": {
+    "doc": "Profile",
+    "title": "What’s saved in the profile",
+    "content": "The following settings are saved in the profiles. | The customized Preferences for the Pipes Table. | The customized Preferences for the Structure Table. | The customized Override Rules Settings. | . GIF Placeholder: Demonstrate new profile creation . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/PipingEngineer/PE-Profile.html#whats-saved-in-the-profile",
+    "relUrl": "/docs/pages/PipingEngineer/PE-Profile.html#whats-saved-in-the-profile"
+  },"141": {
+    "doc": "Piping Engineer User Guide",
+    "title": "Piping Engineer User Guide",
+    "content": "Learn how to use DiCivil - Piping Engineer to design, edit and validate your piping networks faster and easier. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/piping-engineer-user-guide",
+    "relUrl": "/docs/piping-engineer-user-guide"
+  },"142": {
+    "doc": "Piping Engineer User Guide",
+    "title": "Overview",
+    "content": "Piping Engineer is a comprehensive tool for designing, editing, and validating Civil 3D piping networks. The tool provides advanced elevation design capabilities, slope validation, system data edition features, and pipe and structure data edition with table interfaces. Key Features: . | Elevation Design - Advanced elevation control with hold reference options and auto-flow edition. | System Edition - Flexible system modification with multiple editing modes. | Pipe and Structure Data Tables - Comprehensive table interface for pipe and structure management. | Profile Management - Save and reuse configuration profiles. | Auto-Flow Adjustment - Automatic upstream/downstream adjustments. | Slope Validation - Quick Slope validation tool. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/piping-engineer-user-guide#overview",
+    "relUrl": "/docs/piping-engineer-user-guide#overview"
+  },"143": {
+    "doc": "Piping Engineer User Guide",
+    "title": "Getting Started",
+    "content": "Tool Interface . Piping Engineer provides an interface for managing Civil 3D piping networks. The main interface is organized into two primary tabs: General Data to manage the Pipe and structure data and Elevation Design to easilly design the pipes in elevation. Image: Tool interface of Piping Engineer showing 2 tab sections Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/piping-engineer-user-guide#getting-started",
+    "relUrl": "/docs/piping-engineer-user-guide#getting-started"
+  },"144": {
+    "doc": "Editing Features",
+    "title": "Editing Features",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html"
+  },"145": {
+    "doc": "Editing Features",
+    "title": "Table of contents",
+    "content": ". | Editing Features . | Overview | Table Customization . | Customizing Table Data Structure . | Preferences Button | Column Preferences | . | . | Data Editing for the Different Tabs . | Styles Tab Editing . | Editing Property Data Process | . | . | Batch Editing . | Multiple Row Data Editing . | Selection Process | . | Main Component–Subcomponent Relationships in Batch Editing . | Understanding Main Component–Subcomponent Data | Main Component Property Editing | . | . | Find and Replace . | Overview | How It Works . | Find on Columns | Find and Replace Inputs | Find Only on Selected Rows | . | Usage | . | Missing Object Limitations | Label Styles Children Component Editing | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#table-of-contents",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#table-of-contents"
+  },"146": {
+    "doc": "Editing Features",
+    "title": "Editing Features",
+    "content": "Style Helper provides comprehensive editing capabilities for customizing table data, editing style data properties, and performing batch operations for efficient data edition. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html"
+  },"147": {
+    "doc": "Editing Features",
+    "title": "Overview",
+    "content": "The editing features include: . | Table Column Preferences - Configure table structure and data display. | Data Editing - Edit style properties for all three tabs. | Batch Editing - Edit multiple objects and rows simultaneously. | Find and Replace - Find and replace property values quickly across selected columns. | Children Styles Support - Edit children nested label styles. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#overview",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#overview"
+  },"148": {
+    "doc": "Editing Features",
+    "title": "Table Customization",
+    "content": "Customizing Table Data Structure . Style Helper allows you to customize the table structure to show only the data you need: . Preferences Button . | Independent Control - Each tab has its own Preferences button for column configuration. | Dynamic Configuration - Available column options change based on checked objects. | Tab-Specific Settings - Column settings are configured independently for each tab. | . Column Preferences . After accessing the preferences, you can: . | Add Columns - By adding new properties adds new columns. | Remove Columns - Remove unnecessary columns. | Reorder Columns - Arrange columns in preferred order. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#table-customization",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#table-customization"
+  },"149": {
+    "doc": "Editing Features",
+    "title": "Data Editing for the Different Tabs",
+    "content": "Styles Tab Editing . Edit Civil 3D object style property data directly in the table: . Editing Property Data Process . | Access the Tab - Open the Styles tab you want to edit. | Check Objects - Check specific objects to work with. | Configure Columns - Use Preferences button to configure table columns. | Edit Properties - Modify style properties directly in the table. | Save Changes - Changes are applied. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Note: the version on the image may not reflect the latest version of DiCivil Package. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#data-editing-for-the-different-tabs",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#data-editing-for-the-different-tabs"
+  },"150": {
+    "doc": "Editing Features",
+    "title": "Batch Editing",
+    "content": "Multiple Row Data Editing . Edit multiple objects, style or table rows simultaneously for efficient workflow: . Selection Process . | Multi-selection - Select multiple rows in the table. | Bulk Modifications - Apply changes to one column object and the change will be propagated to the set of selected rows at once. | Efficiency - Save time with bulk operations. | Visual Validation - See which objects or rows are affected by changes based on the status column. | Apply Changes - Apply changes to the modified items. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Main Component–Subcomponent Relationships in Batch Editing . Since the tool displays all subcomponents, some data may be associated with the main component. Editing a property of the main component can affect multiple rows, because the main component controls several subcomponents. Understanding Main Component–Subcomponent Data . | Main Component Properties – Some data belongs to the main component. | Subcomponents – Subcomponents have their own specific data. | Multiple Row Impact – Editing main component properties can impact multiple rows. | . Main Component Property Editing . | Main Component Changes – Changes to main component properties affect all related subcomponents. | Cascading Updates – Updates to the main component automatically update its subcomponents. | Bulk Modifications – Modify main component properties to update several subcomponents at once. | . Note: To identify which rows represent subcomponents or main components during batch editing, refer to the Component column in the table. The structure and naming in the Component column are explained in the following reference: Component Column Reference . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#batch-editing",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#batch-editing"
+  },"151": {
+    "doc": "Editing Features",
+    "title": "Find and Replace",
+    "content": "The Find and Replace feature allows you to quickly find current editable property values and replace them across multiple columns, making bulk editing operations more efficient. Overview . Style Helper provides a find and replace functionality that enables you to: . | Find specific text values in selected columns | Replace found values with new text | Add prefixes and suffixes to values | Apply changes only to selected rows (optional) | Work with multiple columns simultaneously | . How It Works . The Style Helper feature includes the following options: . Find on Columns . | Multiselection Dropdown - Select the columns where you want to search for values. You can select multiple columns to perform the find and replace operation. | . Find and Replace Inputs . | Find - Enter the text value you want to find in the selected columns. | Replace - Enter the new text value that will replace the found text. | Prefix - Optional text to add at the beginning of the replaced value. | Suffix - Optional text to add at the end of the replaced value. | . Example: . | Current Text value: ABC_TextToFind_1 | Find: TextToFind | Replace: ReplacedText | Prefix: Prefix- | Suffix: -Sufix | Edited text value: Prefix-ABC_ReplacedText_1-Sufix | . Find Only on Selected Rows . | Boolean Option - When enabled, the find and replace operation applies only to currently selected rows in the table. When disabled, the operation applies to all rows in the table. | . Usage . | Select Rows (Optional) - If you want to limit the operation to specific rows, select them in the table first. | Enable Find Only on Selected Rows(Optional) - Check this option if you want to restrict the operation to selected rows only. | Select Columns - Use the “Find on Columns” multiselection dropdown to choose one or more columns where you want to search. | Enter Find Value - Type the text you want to find in the Find field. | Enter Replace Value - Type the replacement text in the Replace field. | Add Prefix/Suffix (Optional) - If needed, enter prefix and/or suffix values. | Apply Changes - The values are edited in the main UI and marked as edited status. Values are applied when you apply changes in the main UI. | . Important Notes: . | Values are applied only when the user applies changes in the main UI. | The operation works with editable properties only. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#find-and-replace",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#find-and-replace"
+  },"152": {
+    "doc": "Editing Features",
+    "title": "Missing Object Limitations",
+    "content": "Due to current Civil 3D API limitations, Style Helper cannot collect the following style types: . | Section View Styles - Drafting buffer outline. | Rail Turnout - All rail turnout related styles. | Can’t View Styles - Equilibrium can’t line annotation, Applied can’t line annotation. | Bridge Styles - All bridge related styles. | . These limitations are imposed by the Civil 3D API and are not within the control of Style Helper. We continue to monitor API updates and will add support for these styles when they become available through the Civil 3D API. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#missing-object-limitations",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#missing-object-limitations"
+  },"153": {
+    "doc": "Editing Features",
+    "title": "Label Styles Children Component Editing",
+    "content": "Style Helper supports children label styles editing capabilities. Civil 3D has hierarchical component structures for label styles: . | Parent label Styles - Main style objects (e.g., Point Label Styles) | Child Label Style - Inside the parent label style it could have additional nested children and subchildren label styles. We are also supporting these. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Editing-Features.html#label-styles-children-component-editing",
+    "relUrl": "/docs/pages/StyleHelper/SH-Editing-Features.html#label-styles-children-component-editing"
+  },"154": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Style Data Support: Object, Label, and Table Styles",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#style-data-support-object-label-and-table-styles",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#style-data-support-object-label-and-table-styles"
+  },"155": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Table of contents",
+    "content": ". | Style Data Support: Object, Label, and Table Styles . | Overview | Object Styles Tab | Label Styles Tab | Table Styles Tab | Component Column Reference . | Component Path Structure | Component Column Examples . | Object Styles Example | Label Styles Example | Table Styles Example | . | How Component Column Works | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#table-of-contents",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#table-of-contents"
+  },"156": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Style Data Support: Object, Label, and Table Styles",
+    "content": "Style Helper displays the Civil 3D object styles, label styles, and table styles data in a table interface, where each row represents a style and each column shows a property. You can edit many of these properties directly within the table interface. Some properties are read only and cannot be edited, the interface does not allow you to edit them. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#style-data-support-object-label-and-table-styles-1",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#style-data-support-object-label-and-table-styles-1"
+  },"157": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Overview",
+    "content": "Style Helper provides three main tabs that correspond to the different types of styles available in Civil 3D. Each tab displays data in a table format where you can view and edit style properties directly. The three tabs correspond to Civil 3D’s style structure: . | Object Styles Tab - Civil 3D object styles (surfaces, alignments, corridors, etc.). | Label Styles Tab - Civil 3D label styles (point labels, parcel labels, etc.). | Table Styles Tab - Civil 3D table styles (quantity takeoff, surface tables, etc.). | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#overview",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#overview"
+  },"158": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Object Styles Tab",
+    "content": "Edit various Civil 3D object styles including display, geometry, analysis, and behavior properties: . | Surface Styles - Display and analysis styles for surfaces. | Alignment Styles - Display and annotation styles for alignments. | Corridor Styles - Display and component styles for corridors. | Profile Styles - Display and annotation styles for profiles. | Section Styles - Display and annotation styles for sections. | Pipe Styles - Display styles for pipes and structures. | . Note: The listed styles above are samples of the available object styles. There are many more object types and styles that can be edited in Style Helper. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#object-styles-tab",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#object-styles-tab"
+  },"159": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Label Styles Tab",
+    "content": "Edit various Civil 3D label styles including text, line, block, and border components: . | Point Label Styles - Annotation styles for points. | Line Label Styles - Label styles for lines and curves. | Area Label Styles - Label styles for areas and regions. | General Label Styles - General annotation styles. | Profile Label Styles - Label styles for profiles. | Section Label Styles - Label styles for sections. | . Note: The listed styles above are samples of the available label styles. There are many more label types and styles that can be edited in Style Helper. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#label-styles-tab",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#label-styles-tab"
+  },"160": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Table Styles Tab",
+    "content": "Edit various Civil 3D table styles including table layout, column properties, header settings, and data formatting: . | Quantity Takeoff Tables - Styles for quantity takeoff tables. | Surface Tables - Styles for surface analysis tables. | Alignment Tables - Styles for alignment tables. | Profile Tables - Styles for profile tables. | Section Tables - Styles for section tables. | Pipe Tables - Styles for pipe and structure tables. | . Note: The listed styles above are samples of the available table styles. There are many more table types and styles that can be edited in Style Helper. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#table-styles-tab",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#table-styles-tab"
+  },"161": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Component Column Reference",
+    "content": "The Component column is the fundamental object identification that applies to all three tabs. It uses a naming structure similar to the Civil 3D tree structure, making it easy to locate objects you’re working on in Civil 3D. Component Path Structure . Example Component Path: . Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line . This path structure shows: . | Object Type - “Alignment Styles” (matches Civil 3D tree) | Object Name - “Roadway Centerline Alignment Proposed - ATG” (matches Civil 3D tree) | Subcomponents - “Display/Plan/Line” (internal object structure) | . Component Column Examples . Object Styles Example . Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Curve Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Spiral . Label Styles Example . Point Label Styles/Point Label Style/Text/Text Contents Point Label Styles/Point Label Style/Line/Leader Point Label Styles/Point Label Style/Border/Background . Table Styles Example . Surface Table Styles/Surface Table Style/Table Layout/Header Surface Table Styles/Surface Table Style/Column Properties/Data Surface Table Styles/Surface Table Style/Data Properties/Formatting . How Component Column Works . The Component column helps you: . | Locate Objects - Find exactly which object you’re editing in Civil 3D. | Identify Subcomponents - Understand the internal structure of objects. | Navigate Hierarchy - Follow the parent-child relationships. | Match Civil 3D Structure - Directly correlate with Civil 3D’s tree structure. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#component-column-reference",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html#component-column-reference"
+  },"162": {
+    "doc": "Object, Label, and Table Styles",
+    "title": "Object, Label, and Table Styles",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html",
+    "relUrl": "/docs/pages/StyleHelper/SH-Object-Label-Table-Styles.html"
+  },"163": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Profile.html",
+    "relUrl": "/docs/pages/StyleHelper/SH-Profile.html"
+  },"164": {
+    "doc": "Profile",
+    "title": "Table of contents",
+    "content": ". | Profile . | What’s saved in the profile | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Profile.html#table-of-contents",
+    "relUrl": "/docs/pages/StyleHelper/SH-Profile.html#table-of-contents"
+  },"165": {
+    "doc": "Profile",
+    "title": "Profile",
+    "content": "Style Helper profile makes it easy to save your settings and reuse them later. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Profile.html",
+    "relUrl": "/docs/pages/StyleHelper/SH-Profile.html"
+  },"166": {
+    "doc": "Profile",
+    "title": "What’s saved in the profile",
+    "content": "The following settings are saved in the profiles: . | The customized Preferences for the Object Styles tab. | The customized Preferences for the Label Styles tab. | The customized Preferences for the Table Styles tab. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/StyleHelper/SH-Profile.html#whats-saved-in-the-profile",
+    "relUrl": "/docs/pages/StyleHelper/SH-Profile.html#whats-saved-in-the-profile"
+  },"167": {
+    "doc": "Style Helper User Guide",
+    "title": "Style Helper User Guide",
+    "content": "Learn how to use Style Helper to efficiently edit Civil settings, styles and their associated style components. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/style-helper-user-guide",
+    "relUrl": "/docs/style-helper-user-guide"
+  },"168": {
+    "doc": "Style Helper User Guide",
+    "title": "Overview",
+    "content": "Style Helper provides a interface for editing Civil 3D settings, object styles, label styles, and table styles and their associated object components. The tool features custom column configuration based on selected objects, support for parent-child relationship label styles, and bulk editing capabilities. Key Features: . | Style Data Support - Edit and displays the Object styles, Label styles, Table styles in a table format interface. | Label Component Properties Editing Support - The tool supports component properties edition, components as sub elements from the styles. | Multi-Object Bulk Editing - Edit multiple objects simultaneously in table format. | Children Nested Label Style Support - The tool supports children nested label styles properties edition. | Customizable Data Display - Configure table columns to show the data you need. | Profile System - Save and reuse column configurations. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/style-helper-user-guide#overview",
+    "relUrl": "/docs/style-helper-user-guide#overview"
+  },"169": {
+    "doc": "Style Helper User Guide",
+    "title": "Getting Started",
+    "content": "Main Interface . Style Helper provides three main tabs for different style types: . | Object Styles Tab - Edit Civil 3D object styles (e.g. Surface Styles). | Label Styles Tab - Edit Civil 3D label styles (e.g. Point Label Styles). | Table Styles Tab - Edit Civil 3D table styles (e.g. Point Table Styles). | . Basic Workflow . | Open Style Helper - From the DiRoots tab. | Go to Type of Data Tab - Select Object Styles, Label Styles, or Table Styles tab. | Check Objects - Check objects in the Civil 3D tree structure to filter table data on the left side. | Configure Columns - Use Preferences button to add, remove, or reorder table columns. | Edit Data - Modify style data directly in the table where possible. Some data cannot be modified as it is read-only. | Save Profile - Save column configurations for reuse. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/style-helper-user-guide#getting-started",
+    "relUrl": "/docs/style-helper-user-guide#getting-started"
+  },"170": {
+    "doc": "Style Helper User Guide",
+    "title": "Documentation Structure",
+    "content": "This user guide is organized into the following sections: . | Object, Label, and Table Styles - Explanation of the three tabs and Civil 3D structure with component column reference | Editing Features - Table customization, data editing for all tabs, batch editing, and children styles support | Profile - Profile management for saving and reusing column configurations | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/style-helper-user-guide#documentation-structure",
+    "relUrl": "/docs/style-helper-user-guide#documentation-structure"
+  },"171": {
+    "doc": "Delete and Batch Actions",
+    "title": "Delete and Batch Actions",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html"
+  },"172": {
+    "doc": "Delete and Batch Actions",
+    "title": "Table of contents",
+    "content": ". | Batch Actions . | Overview | Multi-Object Selection | Batch Reassignment Workflow | Object Deletion . | Deletion Workflow | Deletion Requirements | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#table-of-contents",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#table-of-contents"
+  },"173": {
+    "doc": "Delete and Batch Actions",
+    "title": "Batch Actions",
+    "content": "Template Inspector enables you to perform batch operations on multiple objects simultaneously, significantly improving efficiency when managing large numbers of objects. The batch action feature allows you to select multiple instances and change the assignment of objects from a dropdown selection for all selected inputs at once. Additionally, you can delete objects from the drawing after ensuring they are unused. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#batch-actions",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#batch-actions"
+  },"174": {
+    "doc": "Delete and Batch Actions",
+    "title": "Overview",
+    "content": "Delete and batch actions allow you to: . | Select multiple instances simultaneously. | Change object assignments from dropdown selection for all selected inputs at once. | Delete unused objects from the drawing. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#overview",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#overview"
+  },"175": {
+    "doc": "Delete and Batch Actions",
+    "title": "Multi-Object  Selection",
+    "content": "Select multiple objects for batch operations: . | Individual Selection - Select specific objects using checkboxes. | Select All - Select all objects in the current view. | Clear Selection - Clear current selection. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#multi-object--selection",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#multi-object--selection"
+  },"176": {
+    "doc": "Delete and Batch Actions",
+    "title": "Batch Reassignment Workflow",
+    "content": "Change object assignments for multiple instances using dropdown selection: . | Select Multiple Instances - Choose multiple instances to modify. | Choose Assignment from Dropdown - Select new assignment from dropdown for all selected inputs. | Execute Batch Assignment - Apply assignment changes to all selected instances at once. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#batch-reassignment-workflow",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#batch-reassignment-workflow"
+  },"177": {
+    "doc": "Delete and Batch Actions",
+    "title": "Object Deletion",
+    "content": "Template Inspector provides the ability to delete objects from the drawing, but requires that objects be unused before deletion to ensure data integrity. Deletion Workflow . To delete objects safely: . | Inspect Objects - Use the inspection feature to identify which objects are currently in use. | Select Unused Objects for Deletion - Check the unused objects you want to delete. | Execute Deletion - Click ‘Delete’ to remove the unused objects from the drawing. | Confirm Deletion - A confirmation dialog will appear; confirm the action to proceed. | . Note: the version on the image may not reflect the latest version of DiCivil Package. Deletion Requirements . Before objects can be deleted: . | Unused Status - Objects must be completely unused (no references or dependencies). | Objects are not Constraint - Objects are not constraint for deletion. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Batch-Actions.html#object-deletion",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Batch-Actions.html#object-deletion"
+  },"178": {
+    "doc": "Object Inspection",
+    "title": "Object Inspection",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html"
+  },"179": {
+    "doc": "Object Inspection",
+    "title": "Table of contents",
+    "content": ". | Object Inspection . | Overview . | Object Types Supported | . | Object Scan Types | Inspection Workflow | Usage Display . | Usage Status | Usage Display References | Component Column Reference . | Component Path Structure | . | . | Missing Object Limitations | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#table-of-contents",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#table-of-contents"
+  },"180": {
+    "doc": "Object Inspection",
+    "title": "Object Inspection",
+    "content": "Template Inspector provides object inspection capabilities to examine object properties, usage, and dependencies in detail. The inspection feature performs scans to find object usage and dependencies throughout your settings and objects, providing detailed information about where inspected objects are used. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html"
+  },"181": {
+    "doc": "Object Inspection",
+    "title": "Overview",
+    "content": "Object inspection allows you to: . | Find all instances where objects are used. | Find dependencies and references. | Reassign or swap object property. | Identify unused objects for cleanup. | . Object Types Supported . | Layers - Inspect layer assignment and usage. | Line Types - Find line type assignments and usage. | Dimension Styles - Check dimension style assignments and usage. | Hatch Styles - Locate hatch pattern assignments and usage. | Text Styles - Find text style assignments and usage. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#overview",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#overview"
+  },"182": {
+    "doc": "Object Inspection",
+    "title": "Object Scan Types",
+    "content": "The following scan case types are used to get the object usage throughout drawings: . | Created Objects - Check all created objects in the drawing. | Settings with Object Assignment - Find all settings with objects assigned to them. | Dependent Objects List - List all dependent objects and their relationships. | Usage Detection - Find all places where objects are used. | Reference Discovery - Discover object references and dependencies. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#object-scan-types",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#object-scan-types"
+  },"183": {
+    "doc": "Object Inspection",
+    "title": "Inspection Workflow",
+    "content": "The inspector finds objects that reference the objects being inspected. | Choose Object Type - Select the type of object to inspect. | Search for Objects - Search for specific objects. | Select Target Object - Select the object to inspect. | Examine Dependencies - Examine object dependencies. | Review Results - Review inspection results. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#inspection-workflow",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#inspection-workflow"
+  },"184": {
+    "doc": "Object Inspection",
+    "title": "Usage Display",
+    "content": "Template Inspector shows usage information to show how objects are used throughout your drawings, locations, template component and usage counts. The usage count specifically tracks only the objects that are placed or created in the drawing. Usage Status . The object table on the left shows if the Object is being used in the column ‘Usage Status’: . Usage Display References . The tool displays the references usage information in the following columns: . | Template Component - Shows the settings path where the settings use the object. | Associated Object - Shows objects that are created in the drawing that have the inspected object referenced inside their properties. | Assigned Object - Shows the assigned object that can be modified. | Count - Displays usage count information for placed/created objects only. | . Component Column Reference . The Template Component column identifies the Settings location from the Civil 3D object in the tree structure, making it easy to locate. Component Path Structure . Example Component Path for Layer: . Alignment Styles/Roadway Centerline Alignment Proposed - ATG/Display/Plan/Line . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#usage-display",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#usage-display"
+  },"185": {
+    "doc": "Object Inspection",
+    "title": "Missing Object Limitations",
+    "content": "Due to current Civil 3D API limitations, Template Inspector cannot collect if data is associated to the following: . | Section View Styles - Drafting buffer outline. | Rail Turnout - All rail turnout objects. | Can’t View Styles - Equilibrium can’t line annotation, Applied can’t line annotation. | Bridge Styles - All bridge related styles. | . The previous mentioned limitations are imposed by the Civil 3D API and are not within the control of Template Inspector. We continue to monitor API updates and will add support for these styles when they become available through the Civil 3D API. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TemplateInspector/TI-Object-Inspection.html#missing-object-limitations",
+    "relUrl": "/docs/pages/TemplateInspector/TI-Object-Inspection.html#missing-object-limitations"
+  },"186": {
+    "doc": "Template Inspector User Guide",
+    "title": "Template Inspector User Guide",
+    "content": "Learn how to use Template Inspector to get object usage, find where they are being used, perform batch modifications and delete them in your files efficiently. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/template-inspector-user-guide",
+    "relUrl": "/docs/template-inspector-user-guide"
+  },"187": {
+    "doc": "Template Inspector User Guide",
+    "title": "Overview",
+    "content": "Template Inspector helps you review where objects are used so you can batch modify their assignments, find their associated objects and delete them to clean your files. The supported objects are layers, line types, hatch styles, dimension styles, and text styles. Key Features: . | Object Inspection - View associated settings and items for each object. | Object Support - The supported objects are layers, line types, dimension styles, hatch styles, text styles. | Batch Reassignment - Update multiple objects assignment simultaneously. | Object Deletion - Delete unused objects after confirmation. | Search and Filter - Find specific objects using search functionality. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/template-inspector-user-guide#overview",
+    "relUrl": "/docs/template-inspector-user-guide#overview"
+  },"188": {
+    "doc": "Template Inspector User Guide",
+    "title": "Getting Started",
+    "content": "Main Interface . The Template Inspector tool is accessed directly from the plugin button. The main interface allows you to: . | Inspect Objects - View detailed information about selected objects. | Select Object Types - Choose from layers, line types, dimension styles, hatch styles, text styles. | Manage Objects - Reassign, delete, select, isolate objects. | Search Objects - Find specific objects using search functionality. | . Basic Workflow . | Open Template Inspector - From the plugin button. | Select Object Type - Choose the type of object to inspect. | Search/Filter - Use search to find specific objects. | Inspect Objects - View associated settings and objects. | Manage Objects - Reassign, select, isolate, delete objects. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/template-inspector-user-guide#getting-started",
+    "relUrl": "/docs/template-inspector-user-guide#getting-started"
+  },"189": {
+    "doc": "Transfer Object Layers",
+    "title": "Transfer Object Layers",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html"
+  },"190": {
+    "doc": "Transfer Object Layers",
+    "title": "Table of contents",
+    "content": ". | Transfer Object Layers . | Overview | Import Options . | 1. Import from Open File | 2. Import from Closed File | 3. Import from Excel | . | Modify Data Before Transferring . | Imported Data Display | Direct Editing | . | Export to Excel . | Export Options . | 1. Export Active UI Data | 2. Export Open Active File | . | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#table-of-contents",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#table-of-contents"
+  },"191": {
+    "doc": "Transfer Object Layers",
+    "title": "Transfer Object Layers",
+    "content": "Transfer Object Layers provides comprehensive functionality to transfer Civil 3D object layer settings between projects, including direct file transfer and Excel export/import capabilities for creating and managing standards. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html"
+  },"192": {
+    "doc": "Transfer Object Layers",
+    "title": "Overview",
+    "content": "Transfer Object Layers allows you to: . | Import object layer data from multiple sources. | Edit and modify data before transferring. | Export current file settings as standards. | Create and manage standards efficiently. | Share standards across teams. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#overview",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#overview"
+  },"193": {
+    "doc": "Transfer Object Layers",
+    "title": "Import Options",
+    "content": "Transfer Object Layers provides three main ways to import object layer data: . 1. Import from Open File . Import object layer data from currently open Civil 3D files: . | File Selection - Select from currently open Civil 3D files. | Direct Import - Import object layer data directly from open files. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 2. Import from Closed File . Import object layer data from closed Civil 3D files: . | File Browser - Browse and select closed Civil 3D files. | Data Extraction - Extract object layer data from closed files. | Offline Import - Import data without opening the source file. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 3. Import from Excel . Import object layer data from Excel files containing standards: . | Excel File Selection - Select Excel files containing object layer data. | File Validation - Validate Excel file format and content. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#import-options",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#import-options"
+  },"194": {
+    "doc": "Transfer Object Layers",
+    "title": "Modify Data Before Transferring",
+    "content": "Transfer Object Layers provides data editing capabilities, allowing you to modify object layer data directly in the UI before transferring to your target file. Imported Data Display . View all imported object layer data: . Imported object layer data is displayed in a structured table with four main columns: . | Layer. | Modifier. | Value. | Locked. | . This layout allows you to easily review and understand each object’s layer configuration before proceeding with transfer. Direct Editing . After importing object layer data, you can edit the data directly in the UI before transferring to your target file. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#modify-data-before-transferring",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#modify-data-before-transferring"
+  },"195": {
+    "doc": "Transfer Object Layers",
+    "title": "Export to Excel",
+    "content": "Transfer Object Layers provides Excel export functionality with two main export options to create and manage standards. Export Options . Choose from two export sources: . 1. Export Active UI Data . Export the currently displayed and edited data from the UI: . | Current UI State - Export data as it appears in the current UI table. | Edited Data - Include any modifications made in the data editing interface. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 2. Export Open Active File . Export object layer data directly from the currently open Civil 3D file: . | File-based Export - Export data from the open Civil 3D file. | Original Data - Export original object layer settings without UI modifications. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#export-to-excel",
+    "relUrl": "/docs/pages/TransferObjectLayers/TOL-Transfer-Object-Layers.html#export-to-excel"
+  },"196": {
+    "doc": "Transfer Object Layers User Guide",
+    "title": "Transfer Object Layers User Guide",
+    "content": "Learn how to use Transfer Object Layers to transfer Civil 3D object layer settings between projects while preserving all layer and properties, includes Excel export and import capabilities. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-object-layers-user-guide",
+    "relUrl": "/docs/transfer-object-layers-user-guide"
+  },"197": {
+    "doc": "Transfer Object Layers User Guide",
+    "title": "Overview",
+    "content": "Transfer Object Layers helps you transfer or migrate Civil 3D drawing object layers settings to any other project or create Excel file format to define your standards. The tool provides two main options: transfer to files directly, and Excel export and import functionality for creating Object Layer Settings standards. Key Features: . | Two Main Options - Transfer files directly or Excel file export/import. | Multiple Import Sources - Import from open files, closed files, or Excel. | Data Editing - Modify data directly in the UI before importing. | Data Validation - Warning system for undefined layers. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-object-layers-user-guide#overview",
+    "relUrl": "/docs/transfer-object-layers-user-guide#overview"
+  },"198": {
+    "doc": "Transfer Object Layers User Guide",
+    "title": "Getting Started",
+    "content": "Basic Workflow . | Open Target File - Open the file where you want to import settings. | Open Transfer Tool - Open Transfer Object Layers tool. | Choose Import Source - Select from open file, closed file, or Excel. | Import Data - Import object layer data from source. | Review and Edit - Review and modify data in the UI. | Apply Settings - Import all data to target file. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-object-layers-user-guide#getting-started",
+    "relUrl": "/docs/transfer-object-layers-user-guide#getting-started"
+  },"199": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Transfer Figure Prefix Database",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html"
+  },"200": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Table of contents",
+    "content": ". | Transfer Figure Prefix Database . | Overview | Import Options . | 1. Import from Excel | 2. Import from .fdb File | . | Edit and Validate Figure Prefix Database Data Before Transfer | Export to Excel . | Export Options . | 1. Export Active UI Data | 2. Export Open Active File | . | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#table-of-contents",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#table-of-contents"
+  },"201": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Transfer Figure Prefix Database",
+    "content": "Transfer Survey Standards provides Figure Prefix Database transfer and manage figure prefix databases across projects with Excel and .fdb file support. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html"
+  },"202": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Overview",
+    "content": "Transfer Figure Prefix Database allows you to: . | Import and modify data before transferring. | Export current file settings as standards. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#overview",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#overview"
+  },"203": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Import Options",
+    "content": "Transfer Survey Standards provides two main ways to import Figure Prefix Database: . 1. Import from Excel . Import Figure Prefix Database from Excel files: . | Excel File Selection - Select Excel files containing Figure Prefix Database data. | File Validation - Validate Excel file format and content. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 2. Import from .fdb File . Import Figure Prefix Database from .fdb files: . | File Browser - Browse and select .fdb files. | Database Import - Import complete database. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#import-options",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#import-options"
+  },"204": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Edit and Validate Figure Prefix Database Data Before Transfer",
+    "content": "Transfer Survey Standards provides a unified data editing interface for the Figure Prefix Database, allowing you to review, modify, and validate all data directly in the UI before transferring it to your target file. Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#edit-and-validate-figure-prefix-database-data-before-transfer",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#edit-and-validate-figure-prefix-database-data-before-transfer"
+  },"205": {
+    "doc": "Transfer Figure Prefix Database",
+    "title": "Export to Excel",
+    "content": "Transfer Survey Standards provides Excel export functionality with two main export options to create and manage Figure Prefix Database standards. Export Options . Choose from two export sources: . 1. Export Active UI Data . Export the currently displayed and edited data from the UI: . | Current UI State - Export data as it appears in the current UI table. | Edited Data - Include any modifications made in the data editing interface. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 2. Export Open Active File . Export Figure Prefix Database data directly from the currently open Civil 3D file: . | File-based Export - Export data from the open Civil 3D file. | Original Data - Export original Figure Prefix Database settings without UI modifications. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#export-to-excel",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Figure-Prefix-Database.html#export-to-excel"
+  },"206": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Transfer Point Description Keys",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html"
+  },"207": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Table of contents",
+    "content": ". | Transfer Point Description Keys . | Overview | Import Options . | 1. Import from Open File | 2. Import from Closed File | 3. Import from Excel | . | PDK Data . | Showing PDK Data | Column Preferences | . | Editing PDK Data Before Transfer | Export to Excel . | Export Options . | 1. Export Active UI Data | 2. Export Open Active File | . | . | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#table-of-contents",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#table-of-contents"
+  },"208": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Transfer Point Description Keys",
+    "content": "Transfer Survey Standards allows Point Description Keys (PDKs) transfer between projects, allowing you to transfer PDK configurations between projects with property preservation. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html"
+  },"209": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Overview",
+    "content": "Transfer Point Description Keys allows you to: . | Import PDK data from different sources. | Edit data before transferring. | Export current file settings or active interface settings. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#overview",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#overview"
+  },"210": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Import Options",
+    "content": "Transfer Survey Standards provides three main ways to import PDK data: . 1. Import from Open File . Import PDK data from currently open Civil 3D files: . | File Selection - Select from currently open Civil 3D files. | Direct Import - Import PDK data directly from open files. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 2. Import from Closed File . Import PDK data from closed Civil 3D files: . | File Browser - Browse and select closed Civil 3D files. | Data Extraction - Extract PDK data from closed files. | Offline Import - Import data without opening the source file. | . Note: the version on the image may not reflect the latest version of DiCivil Package. 3. Import from Excel . Import PDK data from Excel files containing standards: . | Excel File Selection - Select Excel files containing PDK data. | File Validation - Validate Excel file format and content. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#import-options",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#import-options"
+  },"211": {
+    "doc": "Transfer Point Description Keys",
+    "title": "PDK Data",
+    "content": "Showing PDK Data . After importing, you can check on the left panel PDK sets you want to view in the main table. By default, the main table displays the following columns for each Point Description Key: Code, Point Style, Point Label Style, Format, and Layer. You can customize your view by adding additional data columns through the preferences button, allowing you to see and work with extra properties relevant to your workflow. Column Preferences . You can edit the visible table by adding more preference columns as needed. This flexibility allows you to tailor the PDK data view to your workflow—simply add additional columns to track extra preferences, modify or reorder existing columns, and customize the table layout to fit your project requirements and improve visibility. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#pdk-data",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#pdk-data"
+  },"212": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Editing PDK Data Before Transfer",
+    "content": "Transfer Survey Standards provides a unified data editing interface, allowing you to review and modify Point Description Key (PDK) data directly in the UI before transferring it to your target file. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#editing-pdk-data-before-transfer",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#editing-pdk-data-before-transfer"
+  },"213": {
+    "doc": "Transfer Point Description Keys",
+    "title": "Export to Excel",
+    "content": "Transfer Survey Standards provides Excel export functionality with two main export options to create and manage PDK standards. Export Options . Choose from two export sources: . 1. Export Active UI Data . Export the currently displayed and edited data from the UI: . | Current UI State - Export data as it appears in the current UI table. | Edited Data - Include any modifications made in the data editing interface. | . 2. Export Open Active File . Export PDK data directly from the currently open Civil 3D file: . | File-based Export - Export data from the open Civil 3D file. | Original Data - Export original PDK settings without UI modifications. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#export-to-excel",
+    "relUrl": "/docs/pages/TransferSurveyStandards/TSS-Transfer-Point-Description-Keys.html#export-to-excel"
+  },"214": {
+    "doc": "Transfer Survey Standards User Guide",
+    "title": "Transfer Survey Standards User Guide",
+    "content": "Learn how to use Transfer Survey Standards to transfer Civil 3D survey standards data between projects and manage Point Description Keys and Figure Prefix Database with Excel export and import capabilities. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-survey-standards-user-guide",
+    "relUrl": "/docs/transfer-survey-standards-user-guide"
+  },"215": {
+    "doc": "Transfer Survey Standards User Guide",
+    "title": "Overview",
+    "content": "Transfer Survey Standards helps you transfer your Civil 3D survey standards data between projects including Point Description Keys and the Figure Prefix Database, and their associated data. Whether you’re transferring configuration across projects this tool provides efficient transfer solutions with Excel export and import functionality. Key Features: . | Transfer Settings and PDKs - Transfer Point Description Keys between files. | Multiple Source Options - Transfer from open files, closed files, or Excel spreadsheets for PDKs. | Figure Prefix Database Transfer - Transfer figure prefix databases. | Excel Export/Import - Export to Excel for external editing and import back. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-survey-standards-user-guide#overview",
+    "relUrl": "/docs/transfer-survey-standards-user-guide#overview"
+  },"216": {
+    "doc": "Transfer Survey Standards User Guide",
+    "title": "Getting Started",
+    "content": "Basic Workflow . | Open Transfer Survey Standards - From the DiRoots tab. | Choose Transfer Source for PDK - In the first tab for PDK, Select from open files, closed files, or Excel. | Edit Data (if needed) - Modify values before applying. | Apply Changes - Transfer data to target files. | . Note: the version on the image may not reflect the latest version of DiCivil Package. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/transfer-survey-standards-user-guide#getting-started",
+    "relUrl": "/docs/transfer-survey-standards-user-guide#getting-started"
+  },"217": {
+    "doc": "Getting Started",
+    "title": "Getting Started",
+    "content": "DiCivil has eight Autodesk Civil 3D Productivity Tools for Data Management, and Civil design. Includes Piping Engineer, Earthwork Tool, Grading Pro, Style Helper, Template Inspector, Drawing Layers, Transfer Object Layers, Transfer Survey Standards. Not permitted: . | Sell/resell | Make modifications to the software. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/getting-started.html",
+    "relUrl": "/docs/getting-started.html"
+  },"218": {
+    "doc": "Getting Started",
+    "title": "Table of contents",
+    "content": ". | Download | Install . | Compatibility | Standard Installation | . | Uninstall . | Using the installer User Interface | Using the installer silently | From the control panel | . | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/getting-started.html#table-of-contents",
+    "relUrl": "/docs/getting-started.html#table-of-contents"
+  },"219": {
+    "doc": "Getting Started",
+    "title": "Download",
+    "content": "Download the latest version of DiCivil. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/getting-started.html#download",
+    "relUrl": "/docs/getting-started.html#download"
+  },"220": {
+    "doc": "Getting Started",
+    "title": "Install",
+    "content": "Compatibility . | Windows 7, 8, 10 and 11. | Civil 3D 2022, 2023, 2024, 2025, and 2026. | . Standard Installation . | Run DiCivil installer. | Select the Civil 3D versions and click ‘Install’. | Wait for the installation to complete and click ‘Finish’. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/getting-started.html#install",
+    "relUrl": "/docs/getting-started.html#install"
+  },"221": {
+    "doc": "Getting Started",
+    "title": "Uninstall",
+    "content": "Using the installer User Interface . | Run DiCivil installer. | Select and click ‘Remove’. | Wait for the uninstallation to complete and click ‘Finish’. | . Using the installer silently . Uninstall DiCivil without user interaction. From the control panel . | In the search box on the taskbar, type Control Panel and select it from the results. | Select Programs &gt; Programs and Features. | Press and hold (or right-click) on the program you want to remove and select Uninstall or Uninstall/Change. Then follow the directions on the screen. | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/getting-started.html#uninstall",
+    "relUrl": "/docs/getting-started.html#uninstall"
+  },"222": {
+    "doc": "About",
+    "title": "DiCivil | Autodesk Civil 3D Plugin.",
+    "content": ". DiCivil includes multiple Autodesk Civil 3D Plugins to boost your productivity. DiCivil provides users different tools to help design and manage their data to get your job done faster and better. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/#dicivil--autodesk-civil-3d-plugin",
+    "relUrl": "/#dicivil--autodesk-civil-3d-plugin"
+  },"223": {
+    "doc": "About",
+    "title": "Core Features",
+    "content": ". | Configure reusable section‑based surface grading designs; multiple section definition methods. | Store, load, and share configuration profiles for grading design. | Perform full‑surface and region cut/fill calculations. Create stripping topsoil surfaces from existing surfaces. | Generate subgradebase surfaces per region from proposed surfaces. | Calculate total earthwork across multiple surfaces; dynamic units (m³, yd³, ft³, acre‑ft). | Design piping in elevation: Piping networks with elevation control, slope adjustments, system based elevation update. System‑aware elevation design with upstream/downstream auto‑adjust; hold references during edits. | Pipe and Structure Data Tables: Edit pipes or structures; table based property data edition. Part swapping and multi‑property editing. | Create and reuse annotation templates with row-based settings and scope filters; apply multiple Civil 3D label types with profile support. | Edit Object, Label, and Table styles in tables; multi‑row editing and support for editing main and sub components. Edit children component label style data . | Inspect usage of layers, line types, hatch styles, dimension styles, and text styles objects. Object scan assignments, batch reassign, identify unused items, and batch delete/reassign. | Spreadsheet interface for editing layer data and layer states with formulas. Export layer and state data to Excel; import updates with change highlighting. | Transfer Object Layer settings from open/closed files. Export/import Object Layer data via Excel; edit values prior to applying. | Transfer Point Description Keys and Figure Prefix Database entries from open/closed files. Export/import Point Description Keys to/from Excel; edit values prior to applying. | . Download . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/#core-features",
+    "relUrl": "/#core-features"
+  },"224": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/",
+    "relUrl": "/"
+  },"225": {
+    "doc": "Search",
+    "title": "Search",
+    "content": " ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/search.html",
+    "relUrl": "/docs/search.html"
+  },"226": {
+    "doc": "Search",
+    "title": "Table of contents",
+    "content": ". | TOC | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/search.html#table-of-contents",
+    "relUrl": "/docs/search.html#table-of-contents"
+  },"227": {
+    "doc": "Search",
+    "title": "Enable search in configuration",
+    "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/search.html#enable-search-in-configuration",
+    "relUrl": "/docs/search.html#enable-search-in-configuration"
+  },"228": {
+    "doc": "Search",
+    "title": "Hiding pages from search",
+    "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . Example . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/search.html#hiding-pages-from-search",
+    "relUrl": "/docs/search.html#hiding-pages-from-search"
+  },"229": {
+    "doc": "Search",
+    "title": "Generate search index when used as a gem",
+    "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
+    "url": "/DiRoots.Sandbox.Civil3D.Releases/previews/pr-5/docs/search.html#generate-search-index-when-used-as-a-gem",
+    "relUrl": "/docs/search.html#generate-search-index-when-used-as-a-gem"
+  }
+}
